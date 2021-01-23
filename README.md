@@ -15,6 +15,9 @@
   - IP 
 - Client Server Architecture
 - URL anatomy 
+- Host 
+- Domain
+- Domain Name System (DNS)
 - Tools 
   - View 
   - Write (Plain Text)
@@ -60,6 +63,8 @@
   - Text and Shadow box
   - Transition
   - Media Query
+  - CSS methods
+  - Variables
   - Frameworks and Libraries
     - Bootstrap
     - Font Awesome
@@ -209,13 +214,139 @@
         - After
       - Handle Events
       - Effects
+      - JSON
       - Ajax Request
     - Introduction of Frameworks like React, Vue, Angular
 - Deploy Application on Shared HOST
 
+## Front -End Advanced
 
+ - Ecma Script 6 
+   	- Variable
+   	- Arrow Function
+   	- Module System
+    - Class
+      	- Minimal OOP
+   	- Spread and Rest Operator
+   	- Destructuring
+   	- Primitive and Referenced data type
+   	- Array functions 
+   	- Promise 
+   	- Async / Await 
+   	- Generator functions
+   	- Try / Catch
+ - Sass CSS preprocessor
+    - Introduction 
+    - Install 
+    - Watch 
+    - Variables
+    - Nesting
+    - Partials import
+    - Mixins
+    - Extend / Inheritance 
+    - Operators
+ - Package managers
+    - Introduction 
+    - npm  
+       - npm scripts
+    - yarn 
+ - Build tools and Task runner
+    - Introduction 
+    - Webpack
+    - Parcel
+ - SPA vs MPA
+ - Transpiler
+ - Linter
+ - Progressive Web Applications (PWA)
 
-## React JS
+## React 
 
-	- Introduction
-	- 
+- Introduction 
+- Hello World!
+- Bad Pattern Development 
+- Boilerplate 
+- Create and Rendering elements
+- JSX
+- Java Script Expression 
+- Fragment 
+- Component 
+- Functional Components
+- Props
+- Class Components
+- State
+- Lifecycle
+- Handle events
+- Conditional rendering 
+- List and Keys
+- Forms
+- Lifting state up
+- Refs 
+- Default props
+- Props Types
+- Code Splitting 
+- Higher Order Component (HOC)
+- Routing 
+- XHTTP Requests
+- Styling and Visual libraries 
+  - Reactstrap
+- Hooks
+  - useState
+  - useEffect 
+  - Custom Hooks
+  - Rules of hooks
+- State managers
+  - Redux 
+    - Introduction 
+    - Reducer
+    - Actions
+    - Connect
+  - Context API
+  - Mobx
+- Build and Deploy 
+
+## Server Side Rendering (SSR)
+
+- Introduction Next JS
+- Pages and Routing 
+- Data fetching 
+- Assets
+- Pre-rendering 
+- Deploy
+
+## Mobile Application with React Native 
+
+- Introduction 
+- Setup environments
+- Components
+- Styling
+- Build 
+
+## Desktop Application with Electron 
+
+- Introduction 
+
+## CLI Application 
+
+- Introduction
+
+## Other
+
+- Basic Terminal Usage
+  - Navigation 
+  - Manipulate files and directory
+  - Run CLI applications 
+
+- Git
+  - Introduction 
+  - Initialize 
+  - Origin 
+  - Checkout
+  - Pull 
+  - Add files
+  - Commits
+  - Push
+- Data Structure and Algorothms
+- Semantic Versioning 
+- Design Patterns
+- Web Security 
+- CORS
