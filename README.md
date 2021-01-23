@@ -345,8 +345,119 @@
   - Add files
   - Commits
   - Push
-- Data Structure and Algorothms
+- Data Structure and Algorithms
 - Semantic Versioning 
 - Design Patterns
 - Web Security 
 - CORS
+
+## Backend 
+
+- Basic Front-End Knowledge
+  - HTML
+  - CSS
+  - JavaScript
+- OS and General Knowledge
+  - Terminal usage 
+  - Process management 
+  - Threads and Concurrency
+  - Memory management 
+- I/O Management 
+- Request and Response
+- SSH
+- Basic networking concept
+- Choose a backend language 
+- Learn databases 
+  - SQL based
+  - NoSQL based
+  - Key / Value store
+- Web Security Knowledge
+- Caching 
+- API 
+- Architectural patterns
+- Message Brokers and Realtime Protocols
+- Containerization and Virtualization 
+- Web Servers
+
+## Node JS :heart:
+
+- Node Environments
+- V8 Engine
+- Synchronous vs Asynchronous 
+- Event-Driven
+- Non Blocking I/O
+- Event Queue
+- Installation 
+- Node and Package managers
+- Module System
+- File System (FS)
+- Operating System (OS)
+- Hyper Text Transfer Protocol (HTTP)
+- NodeJS Frameworks and libraries 
+  - Express JS 
+    - Installation 
+      - Express Generator
+    - Hello World!
+    - Static files
+    - Middleware 
+    - Template Engine 
+      - PUG
+    - Routing system
+    - JSON Web Token (JWT)
+    - Connect to database 
+
+## Database 
+
+- Introduction
+- Database types
+  - Relational DBMS (Database Management System)
+  - Document Stores
+  - Key/Value Stores
+  - Graph DBMS
+  - Search Engines
+  - ...
+
+### MySQL
+
+- Introduction
+- Installation 
+- Table 
+- Column types
+- SELECT 
+- UPDATE
+- DELETE
+- INSERT
+- Count
+- Distinct
+- Condition
+- Order By
+- Like
+
+### MongoDB
+
+- Introduction
+- Sharding and Replication 
+- Object ID
+- Find 
+- Find All
+- Insert 
+- Update 
+- Remove
+
+### Redis
+
+- Introduction
+- Using basic queries
+
+### Deploy
+
+- Introduction
+- PM2
+- Nginx Reverse Proxy 
+- Docker
+- Monitor application 
+
+### Docker
+
+- Introduction
+
