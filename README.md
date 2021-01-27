@@ -223,7 +223,7 @@
 
  - Ecma Script 6 
    	- Variable
-   	- Arrow Function
+      	- Arrow Function
    	- Module System
     - Class
       	- Minimal OOP
@@ -304,7 +304,7 @@
   - Mobx
 - Build and Deploy 
 
-## Server Side Rendering (SSR)
+## Server Side Rendering (SSR) (_Under Construction_)
 
 - Introduction Next JS
 - Pages and Routing 
@@ -313,7 +313,7 @@
 - Pre-rendering 
 - Deploy
 
-## Mobile Application with React Native 
+## Mobile Application with React Native  (__Under Construction__)
 
 - Introduction 
 - Setup environments
@@ -321,35 +321,13 @@
 - Styling
 - Build 
 
-## Desktop Application with Electron 
+## Desktop Application with Electron (_Under Construction_)
 
 - Introduction 
 
-## CLI Application 
+## CLI Application (_Under Construction_) 
 
 - Introduction
-
-## Other
-
-- Basic Terminal Usage
-  - Navigation 
-  - Manipulate files and directory
-  - Run CLI applications 
-
-- Git
-  - Introduction 
-  - Initialize 
-  - Origin 
-  - Checkout
-  - Pull 
-  - Add files
-  - Commits
-  - Push
-- Data Structure and Algorithms
-- Semantic Versioning 
-- Design Patterns
-- Web Security 
-- CORS
 
 ## Backend 
 
@@ -406,7 +384,7 @@
     - JSON Web Token (JWT)
     - Connect to database 
 
-## Database 
+## Database (_Under Construction_)
 
 - Introduction
 - Database types
@@ -417,7 +395,7 @@
   - Search Engines
   - ...
 
-### MySQL
+### MySQL (_Under Construction_)
 
 - Introduction
 - Installation 
@@ -433,7 +411,7 @@
 - Order By
 - Like
 
-### MongoDB
+### MongoDB (_Under Construction_)
 
 - Introduction
 - Sharding and Replication 
@@ -444,12 +422,12 @@
 - Update 
 - Remove
 
-### Redis
+### Redis (_Under Construction_)
 
 - Introduction
 - Using basic queries
 
-### Deploy
+### Deploy (_Under Construction_)
 
 - Introduction
 - PM2
@@ -457,7 +435,42 @@
 - Docker
 - Monitor application 
 
-### Docker
+### Docker (_Under Construction_)
 
 - Introduction
 
+## PHP (_Under Construction_)
+
+- Introduction
+  - Frameworks and Libraries 
+    - CodeIgniter
+    - Laravel
+
+## Python (_Under Construction_)
+
+- Introduction
+  - Frameworks and Libraries
+    - Flask
+    - FastAPI
+
+## Other (_Under Construction_)
+
+- Basic Terminal Usage
+  - Navigation 
+  - Manipulate files and directory
+  - Run CLI applications 
+
+- Git
+  - Introduction 
+  - Initialize 
+  - Origin 
+  - Checkout
+  - Pull 
+  - Add files
+  - Commits
+  - Push
+- Data Structure and Algorithms
+- Semantic Versioning 
+- Design Patterns
+- Web Security 
+- CORS
