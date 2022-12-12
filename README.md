@@ -3,9 +3,9 @@
 ### Introduction of  Web, Internet, Programming languages
 
 - Intro
-- Interest or Income ?
+- Interest or Income?
 - Roadmap
-- What's internet? What's Web?
+- What's internet? What's web?
   - Protocols
     - HTTP
     - FTP
@@ -13,14 +13,16 @@
     - WS
     - ...
   - IP 
-- Client Server Architecture
+- Client server architecture
+- Local development environment
 - URL anatomy 
 - Host 
 - Domain
 - Domain Name System (DNS)
+- Interpreter vs Compiler
 - Tools 
   - View 
-  - Write (Plain Text)
+  - Write (Plain text)
 - Front End 
   - HTML
   - CSS
@@ -38,11 +40,18 @@
   - Table
   - Lists
   - Forms
-    - Input Attributes
-  - Special Characters
+    - Input attributes
+  - Special characters
   - Block vs Inline 
-  - HTML 5 Elements
-  - Advanced attributes like (id, class, ...)
+  - HTML 5 Elements, Semantic tags
+    - Inputs
+    - Video
+    - Audio
+    - Canvas
+    - SVG
+    - Content base tags
+    - New input types
+  - Advanced attributes like (id, class, data-, ...)
 - CSS
   - Syntax
   - Inject methods
@@ -50,21 +59,105 @@
   - CSS Rules
   - DOM
   - **Selectors** :star:
+    - Tag 
+    - Class 
+    - ID 
+    - Attribute 
+    - Pseudo 
   - Text rules (Color, Size, Style, Alignment, ...)
-  - Box Model (Width, Height, Border, Margin, Padding, Min and Max Width and Height)
+    - Color
+    - Style
+    - Font and size
+    - Alignment
+    - Weight
+    - Decoration
+    - Shadow
+    - Letter spacing
+    - White space 
+    - Word break
+    - Transform
+    - Wrap
+    - Word spacing
+  - Box model
+    - Width and Height
+    - Margin and Padding
+    - Borders
+    - Min / Max 
+  - Overflow
+  - Icons 
+    - Font icons 
+    - Sprites images
   - Fonts
     - Font Icons
   - Background
+    - Images
+    - Solid color
+    - Repeat
+    - Size
+    - Position
+    - Attachment
+  - Visibility
   - Display
+    - Block
+    - Inline
+    - Inline-block
+    - None
+    - Flex
+    - Grid
   - Opacity
   - Float
-  - Position (Static, Relative, Absolute, Fixed, Z-index)
+    - Floating 
+    - Clear
+  - Direction
+  - Positioning
+    - Static
+    - Relative
+    - Absolute
+    - Fixed
+    - Sticky
+    - Z-index
+    - Top, right, bottom, left
   - Round Corners
-  - Text and Shadow box
-  - Transition
-  - Media Query
-  - CSS methods
+  - Box shadow
+  - Transitions
+    - Delay
+    - Duration
+    - Property
+    - Timing function
+  - Animations
+    - Name
+    - Duration
+    - Timing function
+    - Iteration count
+    - Direction
+    - Play state
+  - 2D / 3D
+    - Transform 
+    - Transform origin 
+    - Transform style
+    - Perspective
+    - Perspective origin 
+  - Pseudo elements
+    - :before, :after
+    - Content
+  - Media query
   - Variables
+    - :root
+    - var()
+  - Flexbox
+    - Display
+      - Flex
+      - Inline-Flex
+    - Direction
+    - Wrap
+    - Justify content
+    - Align items
+    - Align content
+    - Order
+    - Flex grow
+    - Flex basis 
+    - Flex shrink
+    - Align self
   - Frameworks and Libraries
     - Bootstrap
     - Font Awesome
@@ -196,8 +289,13 @@
     - Navigator
   - Storage
     - Cookie
-    - LocalStorage
-    - ...
+    - Local storage
+    - Cache
+    - Session storage 
+    - Indexed db 
+    - Web SQL
+  - Prototype
+  - 
   - JavaScript Libraries and Frameworks
     - Why Frameworks and Libraries?
     - jQuery
@@ -222,19 +320,43 @@
 ## Front -End Advanced
 
  - Ecma Script 6 
-   	- Variable
-      	- Arrow Function
-   	- Module System
-    - Class
-      	- Minimal OOP
-   	- Spread and Rest Operator
-   	- Destructuring
-   	- Primitive and Referenced data type
-   	- Array functions 
-   	- Promise 
-   	- Async / Await 
-   	- Generator functions
-   	- Try / Catch
+   	- Variable and block scoping and hoisting 
+    - Template strings
+   - Arrow functions
+  - Module system
+  - Class 
+    - Constructor
+    - Super
+    - Extends
+    - Methods 
+    - Properties
+    - Static
+    - Getter and Setter
+  - Spread and Rest Operator
+  - Destructuring and default values 
+  - Primitive and Referenced data type
+  - For in / For of
+  - Array functions 
+      - For Each
+      - Map
+      - Filter
+      - Find
+      - Find Index
+      - Reduce
+      - Every
+      - Some
+  - Try / Catch / Throw
+  - Promise 
+      - Reject
+      - Resolve
+      - Async / Await 
+      - Then, Cache, Finally
+      - All
+      - Race
+  - Generator functions
+  - Symbols, Maps, Weak Map, Sets
+  - Proxy
+  - Fetch 
  - Sass CSS preprocessor
     - Introduction 
     - Install 
@@ -269,26 +391,52 @@
 - JSX
 - Java Script Expression 
 - Fragment 
-- Component 
-- Functional Components
+- Components
+  - Class 
+  - Functional
+
 - Props
-- Class Components
+  - Default props
+  - Prop types
+
 - State
-- Lifecycle
+- Lifecycles
 - Handle events
 - Conditional rendering 
 - List and Keys
 - Forms
-- Lifting state up
 - Refs 
+  - Create ref
+  - Forwarding ref
+  - useRef
+
 - Default props
-- Props Types
 - Code Splitting 
+- Controlled and Uncontrolled 
 - Higher Order Component (HOC)
+- Error Boundaries
+- Render props
+- Portals
 - Routing 
+  - React router dom 
+    - Browser router 
+    - Hash router 
+    - Router
+    - Route
+    - Link
+    - Navigate
+    - Outlet
+    - Hooks method
+
 - XHTTP Requests
+  - Fetch 
+  - Axios 
+
 - Styling and Visual libraries 
   - Reactstrap
+  - Mui 
+  - Fluent 
+  - Antd
 - Hooks
   - useState
   - useEffect 
@@ -300,9 +448,61 @@
     - Reducer
     - Actions
     - Connect
+    - Redux hooks 
+    - Redux toolkit 
   - Context API
-  - Mobx
-- Build and Deploy 
+    - Provider 
+    - Consumer
+- Form Handling 
+  - Formik 
+  - React Form 
+
+- Validation 
+  - Yup 
+  - Joi
+
+- React application structure <small> *(npx create-react-app --template structure)* </small>
+- Build and deploy React application
+- TypeScript
+  - Installation
+  - Configs 
+  - Type
+    - Primitive 
+    - Object literal 
+    - Tuple 
+    - Union 
+    - Intersection
+    - Indexing
+    - From value 
+    - From functions return 
+    - From Module
+    - Mapped 
+    - Conditional 
+    - Template union types
+
+  - Interface 
+    - Built-in type
+    - Common Built-in type
+    - Literal type
+    - Avoid
+    - Extends
+    - Optional 
+    - Readonly
+    - Generics
+    - Getter and Setter
+
+  - Control Flow
+    - Typeof 
+    - Instanceof 
+    - In 
+    - Is
+
+  - Class
+    - Private 
+    - Implements
+    - Abstract
+    - Decorators and Attributes
+
 
 ## Server Side Rendering (SSR) (_Under Construction_)
 
