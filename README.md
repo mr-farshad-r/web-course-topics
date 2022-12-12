@@ -297,7 +297,6 @@ Email me your comments: farshadroozbahani20@gmail.com
     - Indexed db 
     - Web SQL
   - Prototype
-  - 
   - JavaScript Libraries and Frameworks
     - Why Frameworks and Libraries?
     - jQuery
