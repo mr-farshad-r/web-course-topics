@@ -654,22 +654,54 @@ Email me your comments: farshadroozbahani20@gmail.com
     - Flask
     - FastAPI
 
+## Version Control System (VCS) - GIT
+- Introduction
+- Repository
+  - Local
+  - Remote
+- init ```git init```
+- status ```git status```
+- add ```git add FILE_NAMEs```
+- commit ```git commit -m "MESSAGE"```
+- log ```git log```
+- diff 
+  - diff with HEAD ```git diff HEAD```
+  - diff with stage ```git diff --staged```
+- reset ```git reset FILE_NAMEs```
+- checkout
+  - remove file from stage ```git checkout -- FILE_NAME```
+  - checkout from tag ```git checkout TAG_NAME```
+- branch 
+  - list ```git branch```
+  - create ```git branch BRANCH_NAME```
+  - delete ```git branch -d BRANCH_NAME```
+- merge ```git merge BRANCH_NAME```
+- rm ```git rm FILE_NAME```
+- clone ```git clone GIT_REPOSITORY_ADDRESS```
+- push ```git push origin BRANCH_NAME```
+- pull ```git pull origin BRANCH_NAME```
+- remote 
+  - list ```git remote``` ```git remote -v``` 
+  - add ```git remote add origin GIT_REPOSITORY_ADDRESS```
+- show ```git show [COMMIT_HASH or TAG_NAME]```
+- tag 
+  - list ```git tag```
+  - create ```git tag -a VERSION -m "MESSAGE"```
+  - create from commit name ```git tag -a VERSION COMMIT_HASH -m "MESSAGE"```
+  - search ```git tag -g "SEARCH_PATTERN"```
+  - push tags ```git push origin TAG_NAME``` ```git push origin --tags```
+- blame ```git blame FILE_NAME -L LINE_NUMBER```
+- bisect
+  - ```git bisect start```
+  - ```git bisect bad```
+  - ```git bisect good COMMIT_HASH```
+
 ## Other (_Under Construction_)
 
 - Basic Terminal Usage
   - Navigation 
   - Manipulate files and directory
-  - Run CLI applications 
-
-- Git
-  - Introduction 
-  - Initialize 
-  - Origin 
-  - Checkout
-  - Pull 
-  - Add files
-  - Commits
-  - Push
+  - Run CLI applications
 - Data Structure and Algorithms
 - Semantic Versioning 
 - Design Patterns
