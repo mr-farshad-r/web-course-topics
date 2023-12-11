@@ -1,0 +1,26 @@
+### Introduction of  Web, Internet, Programming languages
+
+- Intro
+- Interest or Income?
+- Roadmap
+- What's internet? What's web?
+    - Protocols
+        - HTTP
+        - FTP
+        - SMTP
+        - WS
+        - ...
+    - IP
+- Client/Server architecture
+- Back-End 
+- Front-End
+- DevOPS
+- Local development environment
+- URL anatomy
+- Host
+- Domain
+- Domain Name System (DNS)
+- Interpreter vs Compiler
+- Tools
+    - View
+    - Write (Plain text)

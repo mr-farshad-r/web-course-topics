@@ -2,29 +2,8 @@
 
 Email me your comments: farshadroozbahani20@gmail.com
 
-### Introduction of  Web, Internet, Programming languages
+[Introduction of  Web, Internet, Programming languages](Introduction/README.md)
 
-- Intro
-- Interest or Income?
-- Roadmap
-- What's internet? What's web?
-  - Protocols
-    - HTTP
-    - FTP
-    - SMTP
-    - WS
-    - ...
-  - IP 
-- Client server architecture
-- Local development environment
-- URL anatomy 
-- Host 
-- Domain
-- Domain Name System (DNS)
-- Interpreter vs Compiler
-- Tools 
-  - View 
-  - Write (Plain text)
 - Front End 
   - HTML
   - CSS
