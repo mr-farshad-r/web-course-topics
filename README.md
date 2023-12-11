@@ -6,159 +6,26 @@ Email me your comments: farshadroozbahani20@gmail.com
 
 [Front-End](Front-End/README.md)
 
-- JavaScript :heart:
-  - Introduction 
-  - JavaScript Environments 
-    - Browser
-    - Server
-    - Mobile
-    - Console (CLI)
-    - Desktop
-  - Output
-    - document.write
-    - console.log
-    - alert
-  - Variables and types
-    - String 
-    - Number
-    - Boolean 
-    - Object
-    - Array
-    - NaN
-    - undefined
-    - Null
-  - Conditions
-    - If 
-    - Switch
-    - Short if
-  - Loops
-    - For
-    - While
-    - Do While
-  - Function
-    - Scope
-    - ***This*** :star:
-    - Param and Arguments
-    - Return
-    - Change this rule
-  - Java Script Strict Mode
-  - DOM Manipulations
-    - ***Selectors*** :star:
-      - getElementsById
-      - getElementsByClassName
-      - getElementsTagName
-      - querySelector
-      - querySelectorAll
-    - CRUD on DOM
-      - element.innerHTML = NEW_CONTENT
-      - element.innerText = NEW_CONTENT
-         - element.attribute = NEW_VALUE
-      - element.style.property = NEW_STYLE
-      - document.createElement(element)
-      - document.removeChild(element)
-      - document.appendChild(element)
-  - Timer
-    - Interval
-    - Timeout
-    - Clear interval or timeout
-  - Events
-    - Click
-    - Load
-    - Unload
-    - Change
-    - Mouseover
-    - Mouseout
-    - Mousedown
-    - Mouseup
-    - Focus
-    - Resize
-    - Add new listener
-    - Remove listener
-    - Callback
-  - String methods
-    - Single or Double Quote
-    - Concat
-    - \n \t
-    - Length
-    - IndexOf
-    - Slice
-    - Substring
-    - SubStr
-    - Replce
-    - To Upper Case
-    - To Lower Case
-    - Trim 
-    - Split
-    - Char Code At
-    - Pars Int
-    - Regular Expression 
-  - Number methods
-    - To String
-    - To Fixed
-    - Pars Float
-  - Array methods
-    - Length
-    - Join
-    - Is Array
-    - Push 
-    - Pop
-    - Splice 
-    - Concat
-    - Sort
-    - Reverse
-    - IndexOf
-  - Date and Time
-    - new Date
-      - Params --> year, month, day, hours, minutes, seconds, milliseconds
-      - String --> October 13, 2014 11:13:00
-      - Millisecond UTC --> 1559411841322 --> January 01, 1970, 00:00:00 UTC (Universal Time Coordinated)
-    - set/getFullYear()
-    - set/getMonth()
-    - set/getDate()
-    - set/getHours()
-    - set/getMinute()
-    - set/getSeconds()
-    - set/getMillisecond()
-    - set/getTime()
-    - set/getDay()
-    - Date.now()
-  - Math
-    - Random _Math.floor(Math.random() * (max - min) ) + min;_
-    - Ceil
-    - Floor
-    - Round
-  - Window
-    - Screen
-    - Location
-    - Navigator
-  - Storage
-    - Cookie
-    - Local storage
-    - Cache
-    - Session storage 
-    - Indexed db 
-    - Web SQL
-  - Prototype
-  - JavaScript Libraries and Frameworks
-    - Why Frameworks and Libraries?
-    - jQuery
-      - Introduction
-      - Syntax
-      - DOM Node vs jQuery Object
-      - DOM Manipulation
-        - CSS
-        - Add Class
-        - Remove Class
-        - Append
-        - Before
-        - Prepend
-        - After
-      - Handle Events
-      - Effects
-      - JSON
-      - Ajax Request
-    - Introduction of Frameworks like React, Vue, Angular
-- Deploy Application on Shared HOST
+
+- JavaScript Libraries and Frameworks
+- Why Frameworks and Libraries?
+- jQuery
+  - Introduction
+  - Syntax
+  - DOM Node vs jQuery Object
+  - DOM Manipulation
+    - CSS
+    - Add Class
+    - Remove Class
+    - Append
+    - Before
+    - Prepend
+    - After
+  - Handle Events
+  - Effects
+  - JSON
+  - Ajax Request
+- Introduction of Frameworks like React, Vue, Angular
 
 ## Front -End Advanced
 
