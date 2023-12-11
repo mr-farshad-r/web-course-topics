@@ -1,0 +1,75 @@
+HTML stands for HyperText Markup Language. It is used on the Front-End and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript.
+
+- HTML
+  - Tags
+  - Attributes
+  - Skeleton tags
+    - Doctype
+    - html 
+    - head
+        - meta charset
+        - title
+    - body
+  - Headings tags (h1-h6)
+  - Paragraph tag
+  - Formatting tags 
+    - b, strong
+    - i, em
+    - mark
+    - small
+    - del
+    - ins
+    - sub
+    - sup
+    - hr *
+    - br *
+  - Comments in HTML
+  - Links 
+    - External link with relative or absolute path
+    - Internal link with fragment identifier or hashbang 
+  - Image tag
+  - Table 
+    - table 
+    - thead
+    - tbody
+    - tfoot
+    - tr
+    - th
+    - td
+    - colspan, rowspan
+  - Lists
+    - ul
+    - ol
+    - li
+  - Forms
+    - input
+    - label
+    - select
+      - option
+    - button
+    - form
+    - Forms validation
+  - Iframe
+  - Symbols or Special characters
+  - Emojis
+  - Block vs Inline
+  - HTML 5 Elements, Semantic tags
+    - New input types
+    - video
+    - audio
+    - canvas
+    - svg
+    - Layout elements
+      - header
+      - nav
+      - section
+      - article
+      - footer 
+      - main
+  - Advanced attributes
+    - id
+    - class
+    - data-* 
+  - Favicon
+  - Accessibility
+  - SEO Technical 

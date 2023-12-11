@@ -16,6 +16,9 @@
 - Front-End
 - DevOPS
 - Local development environment
+- Addressing 
+    - Relative
+    - Absolute
 - URL anatomy
 - Host
 - Domain

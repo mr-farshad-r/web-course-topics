@@ -4,35 +4,9 @@ Email me your comments: farshadroozbahani20@gmail.com
 
 [Introduction of  Web, Internet, Programming languages](Introduction/README.md)
 
-- Front End 
-  - HTML
-  - CSS
-  - JS
-- HTML
-  - Tags 
-  - Attribute 
-  - Skeleton
-  - Headings
-  - Paragraph
-  - Formatting
-  - Comments
-  - Link
-  - Image
-  - Table
-  - Lists
-  - Forms
-    - Input attributes
-  - Special characters
-  - Block vs Inline 
-  - HTML 5 Elements, Semantic tags
-    - Inputs
-    - Video
-    - Audio
-    - Canvas
-    - SVG
-    - Content base tags
-    - New input types
-  - Advanced attributes like (id, class, data-, ...)
+[Front-End](Front-End/README.md)
+
+
 - CSS
   - Syntax
   - Inject methods
