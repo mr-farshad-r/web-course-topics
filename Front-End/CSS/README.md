@@ -1,0 +1,142 @@
+CSS or Cascading Style Sheets is the markup language used to style the Front-End of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+
+- CSS
+  - Syntax
+    - CSS Rules 
+        - Property (Key) / Value
+    - Comments
+  - Inject methods
+  - DOM
+  - Browser Support
+  - User Agent Stylesheet
+  - CSS Units
+    - Relative 
+    - Absolute
+  - Color types
+    - Predefined 
+    - RGB / RGBA
+    - HEX / HEX with transparency
+    - HSL / HSLA
+    - ```currentcolor``` keyword 
+  - **Selectors** 🔴
+      - Tag
+      - Class
+      - ID
+      - Attribute
+      - Pseudo
+      - Universal (Wildcard)
+  - Text rules (Color, Size, Style, Alignment, ...)
+      - Color
+      - Style
+      - Font and size
+      - Alignment
+      - Weight
+      - Decoration
+      - Shadow
+      - Letter spacing
+      - White space
+      - Word break
+      - Transform
+      - Wrap
+      - Word spacing
+  - Box model
+      - Width and Height
+      - Margin and Padding
+      - Borders
+      - Min / Max
+  - Overflow
+  - Icons
+      - Font icons
+      - Sprites images
+  - Fonts
+    - External fonts 
+    - Fallback fonts
+    - Font icons
+  - Background
+      - Images
+      - Solid color
+      - Repeat
+      - Size
+      - Position
+      - Attachment
+  - Visibility
+  - Display
+      - Block
+      - Inline
+      - Inline-block
+      - None
+      - Flex
+      - Grid
+      - ...
+  - Opacity
+  - Float
+      - Floating
+      - Clear
+  - Direction
+  - Positioning
+      - Static
+      - Relative
+      - Absolute
+      - Fixed
+      - Sticky
+      - Z-index
+      - Top, right, bottom, left
+  - Round Corners
+  - Box shadow
+  - Transitions
+      - Delay
+      - Duration
+      - Property
+      - Timing function
+  - Animations
+      - Name
+      - Duration
+      - Timing function
+      - Iteration count
+      - Direction
+      - Play state
+  - 2D / 3D
+      - Transform
+      - Transform origin
+      - Transform style
+      - Perspective
+      - Perspective origin
+  - Pseudo elements
+      - :before, :after
+      - Content
+  - Media query
+  - CSS Reset
+  - ```!important```
+  - Variables
+      - :root
+      - var()
+  - Functions
+    - calc
+    - attr
+    - ...
+  - Flexbox
+      - Display
+          - Flex
+          - Inline-Flex
+      - Direction
+      - Wrap
+      - Justify content
+      - Align items
+      - Align content
+      - Order
+      - Flex grow
+      - Flex basis
+      - Flex shrink
+      - Align self
+  - CSS Architecture
+    - BEM
+    - OOCSS
+    - SMACSS
+  - Frameworks and Libraries
+      - Bootstrap
+      - Font Awesome
+  - Tips and Tricks
+
+
+---
+🔴 Very Important

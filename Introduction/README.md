@@ -31,6 +31,7 @@
 - Domain Name System (DNS)
 - Interpreter vs Compiler
 - Terminal
+- Case sensitivity
 - Tools
     - View (Browsers)
     - Write (Plain text)
