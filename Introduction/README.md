@@ -4,26 +4,33 @@
 - Interest or Income?
 - Roadmap
 - What's internet? What's web?
-    - Protocols
-        - HTTP
-        - FTP
-        - SMTP
-        - WS
-        - ...
-    - IP
+  - Network
+  - IP
+  - Protocols
+    - HTTP
+    - FTP
+    - SMTP
+    - WS
+    - MQTT
+    - ...
 - Client/Server architecture
-- Back-End 
-- Front-End
-- DevOPS
-- Local development environment
+- [Back-End](./../Back-End/README.md) 
+- [Front-End](./../Front-End/README.md)
+- [DevOPS](./../DevOps/README.md)
+- [UI/UX](./../UI-UX/README.md)
+- Environment
+  - Local
+  - Production
 - Addressing 
     - Relative
     - Absolute
 - URL anatomy
-- Host
-- Domain
+- Deployment
+  - Host
+  - Domain
 - Domain Name System (DNS)
 - Interpreter vs Compiler
+- Terminal
 - Tools
-    - View
+    - View (Browsers)
     - Write (Plain text)
