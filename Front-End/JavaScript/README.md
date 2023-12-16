@@ -28,6 +28,7 @@
         - Undefined
         - Null
         - Symbol
+    - Reference vs. Primitive Types
     - [Naming conventions](./../../General/NamingConventions/README.md)
     - Hoisting
         - var
@@ -38,9 +39,10 @@
         - Arithmetic / Compute
         - Assignment / Assign
     - Conditions
+        - Falsy values
         - If
         - Switch
-        - Short if
+        - Short if (Ternary)
     - Loops
         - For
         - While
@@ -54,43 +56,44 @@
         - Change ```this``` rule
         - First Class Function
         - Closure
+        - Constructor
+        - Prototype
+        - Call, Bind, Apply
     - Object
         - Access types
+        - keys and values
         - ```delete``` key
+    - JSON
+        - Parse
+        - Stringify
+    - Map and WeakMap 
+    - Set and WeakSet 
+    - Recursion and Recursive
     - Java Script Strict Mode
     - DOM Manipulations
+        - DOM tree
         - ***Selectors*** 🔴
-            - getElementsById
-            - getElementsByClassName
-            - getElementsTagName
-            - querySelector
-            - querySelectorAll
-        - CRUD on DOM
-            - element.innerHTML = NEW_CONTENT
-            - element.innerText = NEW_CONTENT
-                - element.attribute = NEW_VALUE
-            - element.style.property = NEW_STYLE
-            - document.createElement(element)
-            - document.removeChild(element)
-            - document.appendChild(element)
+        - Searching element or elements
+        - Searching attributes 
+        - Modifying document
+        - Styling and Classes
+        - Element/Window size and scrolling
     - Timer
         - Interval
         - Timeout
         - Clear interval or timeout
     - Events
-        - Click
-        - Load
-        - Unload
-        - Change
-        - Mouseover
-        - Mouseout
-        - Mousedown
-        - Mouseup
-        - Focus
-        - Resize
-        - Add new listener
-        - Remove listener
-        - Callback
+        - Browser events
+            - UI Events
+                - Mouse
+                - Keyboard
+                - Scrolling
+            - Forms
+            - Documents
+        - Bubbling and capturing 
+        - Delegation
+        - Default action and prevent
+        - Dispatching custom events
     - String methods
         - Single or Double Quote
         - Concat
@@ -100,7 +103,7 @@
         - Slice
         - Substring
         - SubStr
-        - Replce
+        - Replace
         - To Upper Case
         - To Lower Case
         - Trim
@@ -143,10 +146,6 @@
         - Ceil
         - Floor
         - Round
-    - Window
-        - Screen
-        - Location
-        - Navigator
     - Storage
         - Cookie
         - Local storage
@@ -154,7 +153,41 @@
         - Session storage
         - Indexed db
         - Web SQL
-    - Prototype
+    - Promise 🔴
+        - Normal
+        - Chaining 
+        - Promise All
+        - Microtask
+        - Async, Await
+    - Getter and Setter
+    - Class and OOP
+        - Inheritance 
+        - Static
+        - Private, Protected and Public
+        - Extend
+        - Super
+    - Proxy
+    - Try - Catch
+    - Throw exception
+    - Generators
+    - Modules
+        - Import
+        - Export
+        - Dynamic import 
+    - Eval
+    - Window
+    - Blob
+    - FileReader
+    - XMLHttpRequest 🔴
+        - Long polling
+        - Fetch
+        - Abort Controller
+        - CORS
+        - File Upload
+    - WebSocket
+    - Server Send Events
+    - Web Workers
+    - Web Assembly
 
 ---
 🔴 Very Important
