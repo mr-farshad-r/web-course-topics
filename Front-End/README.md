@@ -2,3 +2,5 @@
   - [HTML](HTML/README.md)
   - [CSS](CSS/README.md)
   - [JavaScript](JavaScript/README.md)
+    - [jQuery](./JavaScript/Frameworks-Libraries/jQuery/README.md)
+    - [React](./JavaScript/Frameworks-Libraries/React/README.md)

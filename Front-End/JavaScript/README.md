@@ -67,7 +67,8 @@
         - Parse
         - Stringify
     - Map and WeakMap 
-    - Set and WeakSet 
+    - Set and WeakSet
+    - Symbols
     - Recursion and Recursive
     - Java Script Strict Mode
     - DOM Manipulations
@@ -188,6 +189,12 @@
     - Server Send Events
     - Web Workers
     - Web Assembly
+    - Template String
+    - Arrow Functions
+    - Spread and Rest operator
+    - Destructuring and default values
+    - For in / For of
+    - Array functions
 
 ---
 🔴 Very Important
