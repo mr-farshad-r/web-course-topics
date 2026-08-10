@@ -1,0 +1,52 @@
+A linter is a static code analysis tool that flags programming errors, bugs, stylistic issues, and suspicious constructs -- before you ever run the code. A formatter automatically rewrites code to a consistent style. Together they are the backbone of code quality in any professional JavaScript/TypeScript project.
+
+- Linters and Formatters
+  - Why lint? 🔴
+    - Catch errors early (undefined vars, unused imports)
+    - Enforce consistent style across a team
+    - Reduce code-review noise
+  - **ESLint** 🔴 (the standard JS/TS linter)
+    - Installation: `npm install -D eslint`
+    - Config: `.eslintrc.*` or `eslint.config.js` (flat config)
+    - Rules and severity (`off`, `warn`, `error`)
+    - Extends (shared configs)
+      - `eslint:recommended`
+      - `airbnb`
+      - `standard`
+      - `plugin:react/recommended`
+      - `plugin:@typescript-eslint/recommended`
+    - Plugins 🔴 (React, TypeScript, Jest, accessibility)
+    - `eslint-disable` comments
+  - **Prettier** 🔴 (code formatter, not a linter)
+    - Opinionated formatter
+    - Config: `.prettierrc`
+    - Format on save (VS Code setting) 🔴
+    - Integrates with ESLint (`eslint-config-prettier`)
+  - ESLint vs Prettier 🔴
+    - ESLint = code quality + style rules
+    - Prettier = pure formatting
+    - Use both: ESLint for quality, Prettier for formatting
+  - **Stylelint** (CSS / Sass linter)
+  - **markdownlint**
+  - TypeScript as a linter 🔴
+    - `tsc --noEmit` catches type errors
+  - husky + lint-staged 🔴
+    - Run linters only on changed files
+    - Pre-commit hooks (block bad code from entering the repo)
+  - Editor integration 🔴
+    - VS Code ESLint extension
+    - Format on save
+    - Auto-fix on save (`eslint --fix`)
+  - CI/CD integration 🔴
+    - Run lint in GitHub Actions / GitLab CI
+    - Fail the build on lint errors
+  - Common rule categories
+    - Possible errors
+    - Best practices
+    - Strict mode
+    - Stylistic issues
+    - ES6
+  - Modern flat config (ESLint 9+) 🔴
+
+---
+🔴 Very Important

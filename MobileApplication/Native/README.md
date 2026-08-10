@@ -1,0 +1,43 @@
+Native mobile development means building an app for a specific platform using its official language and tools -- Swift for iOS, Kotlin for Android. Native apps deliver the best performance, the deepest access to device hardware, and the most polished user experience.
+
+- Native Development
+  - What "native" means 🔴
+    - Platform's official language and SDK
+    - Compiled directly to the OS's native code
+    - Full access to every OS API
+  - Pros 🔴
+    - Best performance (no abstraction layer)
+    - Best UX (follows platform conventions exactly)
+    - Full access to new OS features immediately
+    - Best tooling (Xcode, Android Studio)
+  - Cons 🔴
+    - Two separate codebases (iOS + Android)
+    - Requires platform-specific expertise
+    - Higher cost (two teams or dual-skills)
+  - [iOS](./IOS/README.md) 🔴
+    - Swift / SwiftUI / UIKit
+    - Requires a Mac + Xcode
+    - Apple Developer Program ($99/year)
+  - [Android](./Android/README.md) 🔴
+    - Kotlin / Jetpack Compose / Views
+    - Android Studio on any OS
+    - Google Play one-time fee ($25)
+  - Shared concepts across platforms
+    - App lifecycle
+    - Navigation patterns (tabs, stacks, drawers)
+    - Lists / collections
+    - Networking and JSON parsing
+    - Local data storage
+    - Background tasks
+    - Permissions
+  - When to go native 🔴
+    - Games or compute-heavy apps
+    - Apps needing deep OS integration (health, IoT, AR)
+    - Large teams with platform experts
+    - When absolute best UX is the priority
+  - Alternatives (when native is overkill)
+    - [Cross-Platform](./../CrossPlatform/README.md) (React Native, Flutter)
+    - [Hybrid](./../Hybrid/README.md) (Ionic, Capacitor)
+
+---
+🔴 Very Important

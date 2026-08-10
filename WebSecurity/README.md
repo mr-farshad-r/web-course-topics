@@ -1,0 +1,68 @@
+Web security is the practice of protecting websites, applications, and APIs from malicious attacks. Every developer must think like an attacker -- because the internet is full of automated scanners probing your site 24/7. Security is not optional; it is a professional responsibility.
+
+- Web Security
+  - Introduction 🔴
+    - Why security matters (data breaches, legal liability, user trust)
+    - Security as a mindset, not a feature
+    - The principle of least privilege 🔴
+  - The CIA Triad 🔴
+    - **C**onfidentiality (only authorized can read)
+    - **I**ntegrity (data isn't tampered with)
+    - **A**vailability (service stays up)
+  - [OWASP Top 10](./OWASP/README.md) 🔴 -- the most critical web risks
+  - Common attacks and defenses
+    - **Injection (SQL/NoSQL)** 🔴
+      - Never concatenate user input into queries
+      - Use parameterized queries / prepared statements 🔴
+    - **XSS (Cross-Site Scripting)** 🔴
+      - Escape output, use CSP, never use `dangerouslySetInnerHTML` carelessly
+    - **CSRF (Cross-Site Request Forgery)** 🔴
+      - Anti-CSRF tokens, `SameSite` cookies
+    - **Authentication flaws** 🔴
+      - Hash passwords (`bcrypt`, `argon2`) 🔴 -- never store plaintext
+      - Rate limiting on login
+      - MFA / 2FA
+    - **Broken access control** 🔴
+      - Validate on the server, not just the client
+      - Check permissions for every request
+  - HTTPS and TLS 🔴
+    - Encrypts data in transit
+    - Let's Encrypt (free certificates)
+    - HSTS header
+  - Security headers 🔴
+    - Content-Security-Policy (CSP) 🔴
+    - X-Frame-Options (clickjacking)
+    - X-Content-Type-Options
+    - Strict-Transport-Security (HSTS)
+    - Referrer-Policy
+  - Password storage 🔴
+    - Never store plaintext or MD5/SHA1
+    - Use `bcrypt`, `scrypt`, or `argon2`
+    - Salt every password
+  - Session and cookie security 🔴
+    - `HttpOnly` (no JS access) 🔴
+    - `Secure` (HTTPS only)
+    - `SameSite` (CSRF protection)
+  - CORS (Cross-Origin Resource Sharing) 🔴
+    - Browser security mechanism
+    - Configure server to allow only trusted origins
+  - Input validation 🔴
+    - Validate on both client (UX) and server (security)
+    - Whitelist over blacklist
+    - Libraries: Joi, Zod, express-validator
+  - Dependency security 🔴
+    - `npm audit` / `pip-audit` / `composer audit`
+    - Keep dependencies updated
+    - Dependabot / Renovate (automated PRs)
+  - API security 🔴
+    - Rate limiting
+    - JWT best practices (short expiry, refresh tokens)
+    - API keys and OAuth
+  - Tools
+    - Security headers scanner (securityheaders.com)
+    - SSL Labs (ssllabs.com)
+    - Burp Suite, OWASP ZAP (penetration testing)
+  - Security is a process, not a checkbox 🔴
+
+---
+🔴 Very Important

@@ -1,0 +1,80 @@
+Node.js is a JavaScript runtime built on Chrome's V8 engine, allowing you to run JavaScript outside the browser -- on servers, CLIs, desktop apps, and IoT devices. It uses non-blocking, event-driven I/O, making it ideal for building scalable network applications.
+
+- Node.js ❤️
+  - Node Environments
+    - Browser vs Server
+  - V8 Engine 🔴
+    - JIT compilation
+    - How Node embeds V8
+  - Synchronous vs Asynchronous 🔴
+  - Event-Driven 🔴
+    - EventEmitter
+    - Callbacks
+  - Non-Blocking I/O 🔴
+    - libuv and the thread pool
+    - Worker threads
+  - Event Loop 🔴
+    - Call stack
+    - Callback queue / Task queue
+    - Microtask queue
+    - Phases: timers, pending, poll, check, close
+  - Event Queue
+  - Installation
+    - Official installer
+    - nvm (Node Version Manager) 🔴
+    - fnm, volta
+  - Node and Package managers 🔴
+    - npm (bundled)
+    - yarn, pnpm
+  - Module System 🔴
+    - CommonJS (`require` / `module.exports`)
+    - ES Modules (`import` / `export`)
+    - `package.json` `"type": "module"`
+  - Built-in modules 🔴
+    - File System (`fs`)
+      - Sync vs Async vs Promise APIs
+      - Read / write / append / delete
+      - Streams
+    - Operating System (`os`)
+    - Path (`path`)
+    - HTTP / HTTPS (`http`, `https`)
+    - URL
+    - Crypto
+    - Events (`events`)
+    - Stream
+    - Process (`process`)
+      - `process.argv`
+      - `process.env`
+      - `process.exit()`
+    - Child Process (`child_process`)
+      - `exec`, `spawn`, `execFile`, `fork`
+    - Cluster
+    - Worker Threads
+  - Node REPL
+  - Debugging
+    - `node inspect`
+    - Chrome DevTools (`--inspect`)
+    - VS Code debugger
+  - `package.json` and `package-lock.json` 🔴
+    - Scripts (`npm run`)
+    - Dependencies vs DevDependencies
+    - Engines and `engines`
+  - `npx` 🔴
+  - Environment variables 🔴
+    - `.env` files
+    - `dotenv` package
+  - npm scripts as a build tool 🔴
+  - [Express.js](./Expressjs/README.md) 🔴
+  - [PM2](./PM2/README.md)
+  - Error handling 🔴
+    - Try/catch for sync
+    - `.catch()` and `domains` for async
+    - `uncaughtException`, `unhandledRejection`
+  - Node.js best practices
+    - Keep dependencies small
+    - Use streaming for large data
+    - Always handle errors
+    - Use `async`/`await` over raw callbacks
+
+---
+🔴 Very Important

@@ -1,0 +1,57 @@
+Progressive Web Applications (PWA) are web apps that use modern web APIs to deliver an app-like experience -- installable, offline-capable, and fast. They combine the reach of the web with the feel of a native app.
+
+- Progressive Web Applications (PWA)
+  - What is a PWA? 🔴
+    - A website that behaves like a native app
+    - Installable, works offline, send push notifications
+    - No app store needed
+  - Core technologies 🔴
+    - **Service Worker** 🔴
+      - JavaScript that runs in the background, separate from the page
+      - Acts as a programmable network proxy
+      - Lifecycle: install -> activate -> fetch
+      - Caching strategies (cache-first, network-first, stale-while-revalidate)
+    - **Web App Manifest** 🔴
+      - `manifest.json` / `manifest.webmanifest`
+      - Name, icons, theme color, display mode
+      - Makes the app installable ("Add to Home Screen")
+    - HTTPS (required for service workers) 🔴
+  - Features
+    - Offline support 🔴
+    - Push notifications 🔴
+    - Background sync
+    - Periodic background sync
+    - App installation (home screen / desktop)
+  - Caching strategies 🔴
+    - Cache-first (static assets)
+    - Network-first (API data)
+    - Stale-while-revalidate
+    - Network-only / Cache-only
+  - Storage APIs
+    - Cache Storage API 🔴 (for service worker caching)
+    - IndexedDB (structured data)
+  - Tools and libraries 🔴
+    - **Workbox** (Google's PWA library)
+    - `vite-plugin-pwa`
+    - `create-react-app` PWA template
+    - Lighthouse PWA audit
+  - Testing and auditing
+    - Chrome DevTools -> Application tab 🔴
+    - Lighthouse audit (PWA score)
+  - Push notifications 🔴
+    - VAPID keys
+    - Push API + Notifications API
+    - Server-side push (web-push library)
+  - App-like UX
+    - Fullscreen / standalone display mode
+    - Splash screen
+    - Smooth transitions
+  - Pros and cons 🔴
+    - Pro: cross-platform, no app store, SEO-friendly
+    - Con: iOS limitations (historically), background limits
+  - When to build a PWA
+    - Content apps, e-commerce, tools
+    - When you want mobile presence without native dev
+
+---
+🔴 Very Important

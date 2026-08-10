@@ -1,0 +1,59 @@
+Routing is how a single-page application (SPA) shows different "pages" (views) without a full browser reload. In React, routing is almost always handled by **React Router**, the de-facto standard library.
+
+- React Router DOM
+  - Introduction 🔴
+    - Client-side routing vs server-side routing
+    - SPA navigation without page reloads
+    - History API
+  - Installation
+    - `npm install react-router-dom`
+  - Core components 🔴
+    - **BrowserRouter**
+      - Uses the HTML5 History API (clean URLs)
+      - Needs server-side fallback config 🔴
+    - **HashRouter**
+      - Uses URL hash (`/#/path`)
+      - Works without server config (static hosting)
+  - Routers
+    - `<Router>` (low-level, for custom routing)
+    - `<BrowserRouter>` (most common)
+    - `<HashRouter>`
+    - `<MemoryRouter>` (testing, React Native)
+  - **Route**
+    - `<Route path="/about" element={<About />} />`
+    - Dynamic params: `path="/users/:id"`
+    - Nested routes
+  - **Link** and **NavLink** 🔴
+    - `<Link to="/about">About</Link>`
+    - `NavLink` (active styling)
+    - `to` vs `render` vs `component`
+  - **Navigate** (programmatic redirect)
+    - `<Navigate to="/login" />`
+  - **Outlet** 🔴
+    - Renders child routes inside a layout
+    - Nested routing pattern
+  - Hooks 🔴
+    - `useParams()` -- URL parameters
+    - `useNavigate()` -- programmatic navigation
+    - `useLocation()` -- current URL, pathname, search
+    - `useSearchParams()` -- query string params
+    - `useMatch()` -- match current route
+  - Route protection 🔴
+    - Private / protected routes
+    - Redirect if not authenticated
+  - Lazy loading routes 🔴
+    - `React.lazy` + `<Suspense>`
+    - Code splitting per route
+  - Scroll restoration
+  - Data Router (React Router v6.4+) 🔴
+    - `createBrowserRouter`, `RouterProvider`
+    - Loaders and Actions (data fetching + mutations)
+    - `useLoaderData`, `useActionData`
+  - Query params vs path params
+  - 404 / Not Found routes
+  - Common patterns
+    - Layouts with nested `<Outlet />`
+    - Breadcrumbs from route matches
+
+---
+🔴 Very Important

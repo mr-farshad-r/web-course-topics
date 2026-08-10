@@ -1,0 +1,46 @@
+A transpiler (source-to-source compiler) converts source code written in one version or dialect of a language into another. In the front-end world, transpilers let you write modern JavaScript (ES2024), TypeScript, or JSX today, while shipping browser-compatible code to every user.
+
+- Transpilers
+  - What is a transpiler? 🔴
+    - Source-to-source compilation
+    - vs Compiler (source -> machine code) vs Polyfill (runtime)
+  - Why transpile? 🔴
+    - Use tomorrow's syntax today
+    - Ensure cross-browser compatibility
+    - Enable non-standard syntax (JSX, TypeScript)
+  - **Babel** 🔴
+    - The most popular JavaScript transpiler
+    - What Babel does
+      - Transpile modern JS (ES6+) to ES5
+      - Transform JSX -> `React.createElement`
+      - Transform TypeScript (strip types)
+      - Transform modern class fields, decorators
+    - Configuration (`babel.config.json` / `.babelrc`) 🔴
+      - Presets (`@babel/preset-env`, `@babel/preset-react`, `@babel/preset-typescript`)
+      - Plugins
+      - `targets` (which browsers to support)
+    - Polyfills vs syntax transforms 🔴
+      - Babel transforms syntax
+      - `core-js` / `regenerator-runtime` polyfill new APIs (Promise, Array.flat)
+  - **TypeScript** (as a transpiler) 🔴
+    - `tsc` strips types and outputs JS
+    - Target ES5 / ES6 / ESNext
+  - **SWC** 🔴 (Rust-based, super fast)
+    - Next.js uses SWC instead of Babel
+    - 20x+ faster than Babel
+  - **esbuild** 🔴 (Go-based, super fast)
+    - Used by Vite for dev-time transpilation
+  - PostCSS 🔴
+    - Not JS, but similar concept for CSS
+    - Transpiles modern CSS (autoprefixer, nesting, custom properties)
+  - Sass/SCSS to CSS 🔴
+  - Transpilation in the build pipeline 🔴
+    - Source code -> Transpiler -> Bundler -> Minified output
+  - Browser targets and caniuse.com 🔴
+  - The future of transpilation 🔴
+    - Native browser ESM reduces need for bundling
+    - esbuild/SWC replace Babel for speed
+    - TypeScript native stripping in Node 23+
+
+---
+🔴 Very Important

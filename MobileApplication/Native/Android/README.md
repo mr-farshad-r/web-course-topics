@@ -1,0 +1,50 @@
+Android is Google's mobile operating system, running on the majority of smartphones worldwide. Native Android apps are built with Kotlin (or Java) using Google's Jetpack libraries and Android Studio.
+
+- Android Native Development
+  - Introduction 🔴
+    - What Android is (open-source OS, many device makers)
+    - Android versions and API levels
+    - Fragmentation challenge (many screen sizes / OS versions)
+  - Prerequisites 🔴
+    - Any OS (Windows, macOS, Linux)
+    - Android Studio (official IDE)
+    - No developer fee for testing (one-time $25 to publish)
+  - Languages 🔴
+    - **Kotlin** (modern, recommended by Google since 2017)
+    - Java (legacy, still supported)
+  - IDE: **Android Studio** 🔴
+    - Layout editor
+    - Emulator
+    - Profiler
+  - UI Toolkit 🔴
+    - **Jetpack Compose** (modern, declarative -- like React/SwiftUI)
+    - **Views** (classic XML layout system)
+  - Key concepts
+    - Activity and Fragment lifecycle 🔴
+    - Intent (navigation and communication)
+    - RecyclerView (lists)
+    - ViewModel + LiveData / StateFlow (state management)
+  - Jetpack libraries 🔴
+    - Navigation, Room, WorkManager, Hilt (DI), DataStore
+  - Networking
+    - Retrofit (most popular HTTP client) 🔴
+    - OkHttp, Kotlin Coroutines
+    - Kotlin Serialization / Moshi (JSON)
+  - Data persistence
+    - **Room** (SQLite abstraction) 🔴
+    - DataStore (preferences)
+    - File system
+  - Common APIs
+    - Firebase (analytics, auth, push)
+    - Camera, location, sensors
+    - Notifications (Fcm)
+  - Permissions model 🔴 (runtime permissions since Android 6)
+  - Publishing 🔴
+    - Google Play Console
+    - App Bundle (`.aab`)
+    - Internal / closed / open testing tracks
+  - Material Design guidelines 🔴
+  - Android vs iOS (developer perspective) 🔴
+
+---
+🔴 Very Important

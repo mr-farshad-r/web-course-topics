@@ -1,0 +1,46 @@
+Cross-platform mobile development means writing a single codebase that compiles down to real native UI on both iOS and Android. Unlike hybrid (WebView), cross-platform frameworks render actual native components -- delivering near-native performance and UX from one language.
+
+- Cross-Platform Development
+  - What is cross-platform? 🔴
+    - One codebase -> real native UI on each platform
+    - NOT a WebView (that's hybrid)
+    - Shares business logic; renders platform-native widgets
+  - Pros 🔴
+    - Near-native performance and feel
+    - One codebase, one team
+    - Access to most native APIs
+    - Fast iteration (hot reload)
+  - Cons 🔴
+    - Not 100% native (occasional bridge overhead)
+    - May lag behind newest OS features
+    - Larger app size than pure native
+    - Platform-specific tweaking still needed for polish
+  - Frameworks
+    - [React Native](./ReactNative/README.md) 🔴 -- JavaScript / React
+    - **Flutter** (Google, Dart) 🔴 -- custom rendering engine
+    - .NET MAUI (Microsoft, C#)
+    - KMP (Kotlin Multiplatform) -- share logic, keep native UI
+  - Cross-Platform vs Hybrid vs Native 🔴
+    - Cross-Platform: JS/Dart -> native UI, fast, one codebase
+    - Hybrid: WebView, easiest, slowest
+    - Native: platform code, fastest, two codebases
+  - Choosing a framework 🔴
+    - Know React / JavaScript -> React Native
+    - Want best performance / custom UI -> Flutter
+    - C# / enterprise -> .NET MAUI
+  - Shared concepts
+    - Component-based UI
+    - State management
+    - Navigation (stacks, tabs, drawers)
+    - Styling (Flexbox in RN, widgets in Flutter)
+    - Native modules (bridge to platform APIs)
+    - Platform-specific code (`Platform.OS`)
+  - When to go cross-platform 🔴
+    - Most business apps, e-commerce, social, content
+    - Team has web/JS skills (React Native)
+    - Need iOS + Android with one team
+  - When NOT to
+    - Games, AR/VR, heavy compute -> Native or game engine
+
+---
+🔴 Very Important

@@ -1,0 +1,80 @@
+MySQL is the world's most popular open-source relational database management system (RDBMS). It uses SQL (Structured Query Language) and is the backbone of the classic LAMP/LEMP stack (Linux, Apache/Nginx, MySQL, PHP/Python/Node).
+
+- MySQL
+  - Introduction 🔴
+    - What is MySQL (Oracle-owned, open-source RDBMS)
+    - MySQL vs MariaDB
+    - When to choose a relational DB
+  - Installation 🔴
+    - Linux: `sudo apt install mysql-server`
+    - macOS: `brew install mysql`
+    - Windows: MySQL Installer
+    - Docker: `docker run -d -p 3306:3306 mysql`
+  - Connecting
+    - `mysql -u root -p`
+  - Server vs Database vs Table vs Row
+  - Data types 🔴
+    - Numeric: `INT`, `BIGINT`, `DECIMAL`, `FLOAT`, `DOUBLE`
+    - String: `VARCHAR`, `TEXT`, `CHAR`
+    - Date/Time: `DATE`, `DATETIME`, `TIMESTAMP`, `TIME`, `YEAR`
+    - JSON (MySQL 5.7+)
+    - ENUM
+  - Database and Table operations 🔴
+    - `CREATE DATABASE` / `DROP DATABASE` / `USE`
+    - `CREATE TABLE` / `ALTER TABLE` / `DROP TABLE`
+    - `SHOW TABLES` / `DESCRIBE table`
+  - CRUD operations 🔴
+    - INSERT `INSERT INTO table (cols) VALUES (...)`
+    - SELECT `SELECT * FROM table`
+    - UPDATE `UPDATE table SET col=val WHERE ...`
+    - DELETE `DELETE FROM table WHERE ...`
+  - Selecting with conditions
+    - Count `SELECT COUNT(*)`
+    - Distinct `SELECT DISTINCT col`
+    - Condition `WHERE`, `AND`, `OR`, `IN`, `BETWEEN`
+    - Order By `ORDER BY col ASC|DESC`
+    - Like `WHERE name LIKE '%pattern%'`
+    - Limit and Offset
+    - Group By and Having 🔴
+  - Joins 🔴
+    - INNER JOIN
+    - LEFT JOIN / RIGHT JOIN
+    - FULL OUTER JOIN
+    - Cross join
+    - Self join
+  - Aggregation functions
+    - `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`
+  - Subqueries 🔴
+    - In WHERE, FROM, SELECT
+  - Keys and constraints 🔴
+    - Primary key
+    - Foreign key
+    - UNIQUE, NOT NULL, DEFAULT, CHECK
+  - Index 🔴
+    - `CREATE INDEX`
+    - When to index (and when not to)
+    - Composite index
+  - Transactions 🔴
+    - `START TRANSACTION`, `COMMIT`, `ROLLBACK`
+    - `SAVEPOINT`
+    - Isolation levels
+  - Views
+  - Stored procedures and functions
+  - Triggers
+  - Users and privileges 🔴
+    - `CREATE USER`, `GRANT`, `REVOKE`
+  - Backup and restore 🔴
+    - `mysqldump` 🔴
+    - Restore from `.sql` file
+  - Performance 🔴
+    - `EXPLAIN` query plan
+    - Slow query log
+  - Accessing MySQL from application code
+    - Node.js: `mysql2`, `sequelize`, `prisma`
+    - PHP: `PDO`, `mysqli`
+    - Python: `pymysql`, `SQLAlchemy`
+  - GUI tools
+    - phpMyAdmin, MySQL Workbench, DBeaver, DataGrip
+
+---
+🔴 Very Important

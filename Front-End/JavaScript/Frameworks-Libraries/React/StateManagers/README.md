@@ -1,0 +1,60 @@
+State management is how data flows through a React application -- from server responses, to user input, to UI state. Small apps can survive on `useState` and props, but as complexity grows you need a strategy (and often a library) to keep state predictable and maintainable.
+
+- State Managers in React
+  - What is state? 🔴
+    - Local state (component-level)
+    - Shared state (app-level)
+    - Server state (data from APIs)
+    - URL state (routing params)
+  - The prop-drilling problem 🔴
+    - Passing props through many levels
+    - Why we need global/shared state
+  - **Context API** 🔴 (built into React)
+    - Provider
+    - Consumer / `useContext`
+    - When to use Context (theme, auth, locale)
+    - When NOT to use Context (high-frequency updates)
+  - **Redux** 🔴
+    - Introduction
+      - Single source of truth (store)
+      - State is read-only (changed via actions)
+      - Changes via pure functions (reducers)
+    - Core concepts 🔴
+      - **Store**
+      - **Actions** (`{ type, payload }`)
+      - **Reducers** (pure functions, `state + action -> new state`)
+      - **Dispatch**
+    - `connect` (HOC, classic API)
+      - `mapStateToProps`, `mapDispatchToProps`
+    - Redux hooks 🔴 (modern API)
+      - `useSelector(state => state.user)`
+      - `useDispatch()`
+    - **Redux Toolkit (RTK)** 🔴 -- the modern standard
+      - `configureStore`
+      - `createSlice` (reducers + actions together)
+      - `createAsyncThunk` (async logic)
+      - RTK Query (data fetching)
+    - Middleware (redux-thunk, redux-saga)
+  - **Modern alternatives** 🔴
+    - **Zustand** 🔴 -- minimal, hook-based, no boilerplate
+    - Jotai -- atomic state
+    - Recoil -- atomic state (Meta)
+    - Valtio -- proxy-based
+  - Server state libraries (different concern) 🔴
+    - **React Query / TanStack Query**
+    - SWR
+    - These replace most of what Redux used to be used for
+  - Choosing a state manager 🔴
+    - Small app -> useState + Context
+    - Medium app -> Zustand or Context + useReducer
+    - Large/enterprise -> Redux Toolkit
+    - Data fetching -> React Query
+  - Patterns 🔴
+    - Normalized state
+    - Selectors and memoization
+    - Immutable updates
+  - DevTools 🔴
+    - Redux DevTools (time travel)
+
+---
+🔴 Very Important

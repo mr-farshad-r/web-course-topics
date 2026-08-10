@@ -1,0 +1,79 @@
+SEO (Search Engine Optimization) is the practice of improving a website so that it ranks higher in search engine results (Google, Bing, ...). Higher rankings mean more organic (unpaid) traffic. SEO spans technical, content, and off-site factors.
+
+- SEO
+  - Introduction 🔴
+    - What SEO is (organic search visibility)
+    - Why it matters (organic search = free, high-intent traffic)
+    - SEO vs SEM (paid ads)
+    - On-page vs Off-page vs Technical SEO
+  - **Technical SEO** 🔴 (the developer's job)
+    - Semantic HTML 🔴
+      - Use `<h1>`-`<h6>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<footer>`
+    - Meta tags 🔴
+      - `<title>` (unique, descriptive, < 60 chars)
+      - `<meta name="description">` (compelling, < 160 chars)
+      - `<meta name="robots">`
+      - Canonical `<link rel="canonical">`
+    - Open Graph and Twitter Card tags 🔴
+      - `og:title`, `og:description`, `og:image`, `og:url`
+      - Social sharing previews
+    - Structured data (Schema.org JSON-LD) 🔴
+      - Rich results in Google
+      - Types: Article, Product, FAQ, Breadcrumb, Organization
+    - URL structure 🔴
+      - Clean, descriptive, keyword-rich URLs
+      - `/blog/how-to-use-react` not `/p?id=123`
+      - Hyphens, lowercase, no spaces
+    - Sitemap.xml 🔴
+      - List all important URLs for crawlers
+      - Submit to Google Search Console
+    - Robots.txt 🔴
+      - Control what crawlers can access
+      - Block staging, allow production
+    - Page speed 🔴 (Core Web Vitals)
+      - LCP (Largest Contentful Paint)
+      - FID / INP (Interactivity)
+      - CLS (Cumulative Layout Shift)
+      - Optimize images, lazy load, minify, use CDN
+    - Mobile-first indexing 🔴
+      - Google indexes the mobile version
+      - Responsive design is mandatory
+    - HTTPS (ranking signal) 🔴
+    - Server-side rendering (SSR/SSG) for content sites 🔴
+      - SPAs need SSR/SSG for SEO (see [Next.js](./../Front-End/SSR-SSG/NEXTjs/README.md))
+    - hreflang (multilingual SEO)
+    - Pagination and canonicalization
+  - **On-Page SEO** (content)
+    - Keyword research (what users search for)
+    - Quality, original, comprehensive content
+    - Title tags and H1 with target keywords
+    - Internal linking 🔴
+    - Image alt text 🔴
+    - URL slugs with keywords
+  - **Off-Page SEO**
+    - Backlinks (other sites linking to you) 🔴
+    - Social signals
+    - Brand mentions
+  - Tools 🔴
+    - Google Search Console (free, essential) 🔴
+    - Google Analytics
+    - Google PageSpeed Insights / Lighthouse
+    - Ahrefs, SEMrush, Moz (paid, comprehensive)
+    - Screaming Frog (site crawler)
+  - Measuring SEO
+    - Rankings (position for target keywords)
+    - Organic traffic
+    - Click-through rate (CTR)
+    - Indexed pages count
+  - SEO for SPAs (React/Vue) 🔴
+    - Without SSR, crawlers may not see content
+    - Solutions: Next.js/Nuxt, prerendering, dynamic rendering
+  - Common mistakes 🔴
+    - Duplicate content
+    - Broken links (404s)
+    - Slow pages
+    - Missing meta tags
+    - Blocking JS/CSS in robots.txt
+
+---
+🔴 Very Important

@@ -1,0 +1,51 @@
+Deployment is the process of taking code from your machine and making it available to users on the internet. It covers hosting, domains, web servers, process managers, SSL, and the CI/CD pipeline that automates releases.
+
+- Deployment
+  - Introduction 🔴
+    - What deployment means (local -> staging -> production)
+    - Environments: development, staging, production
+  - Hosting options 🔴
+    - **Static hosting** (HTML/CSS/JS)
+      - GitHub Pages, Netlify, Vercel, Cloudflare Pages
+    - **Platform-as-a-Service (PaaS)**
+      - Heroku, Render, Railway, Vercel, Netlify
+    - **Virtual Private Server (VPS)**
+      - DigitalOcean, Hetzner, Linode, AWS EC2
+    - **Shared hosting** (cPanel)
+      - Cheap PHP/MySQL hosting
+    - **Container platforms**
+      - AWS ECS, Google Cloud Run, Fly.io
+  - [PM2](./../Back-End/Language/Nodejs/PM2/README.md) -- Node.js process manager 🔴
+  - [Nginx Reverse Proxy](./../Back-End/WebServers/Nginx/README.md) 🔴
+    - Serve static files + proxy to app server
+    - TLS termination
+  - [Docker](./../DevOps/Docker/README.md) 🔴
+    - Containerize app, run anywhere
+  - Monitor application 🔴
+    - Uptime monitoring (UptimeRobot, Better Stack)
+    - Error tracking (Sentry)
+    - Logs (centralized)
+    - APM (Application Performance Monitoring)
+    - Prometheus + Grafana
+  - CI/CD pipeline 🔴
+    - Push -> run tests -> build -> deploy
+    - GitLab CI, GitHub Actions, Jenkins
+  - Deployment strategies 🔴
+    - **Rolling** (gradual replacement)
+    - **Blue/Green** (two environments, switch)
+    - **Canary** (release to a small % of users)
+    - **Recreate** (stop old, start new)
+  - SSL / HTTPS 🔴
+    - Let's Encrypt (free) + Certbot
+    - Auto-renewal
+  - Domains and DNS 🔴
+    - A record, CNAME, MX, TXT
+    - Propagation
+  - Zero-downtime deploys 🔴
+  - Rollback strategy 🔴 (always have one)
+  - Environment variables and secrets in production 🔴
+    - Never commit secrets
+    - Use vault / secret manager
+
+---
+🔴 Very Important

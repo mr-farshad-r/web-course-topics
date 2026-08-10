@@ -1,0 +1,122 @@
+React is the most popular JavaScript library for building user interfaces, created by Facebook (Meta) in 2013. It introduced the component-based architecture and the Virtual DOM that now define modern front-end development.
+
+- React
+  - Introduction
+  - Hello World!
+  - Bad Pattern Development
+  - Boilerplate
+    - Create React App (CRA) -- legacy
+    - Vite 🔴
+    - Next.js
+  - Create and Rendering elements
+    - `ReactDOM.createRoot`
+    - `render()`
+  - JSX 🔴
+    - Embedding expressions
+    - JSX is syntactic sugar for `React.createElement`
+    - Conditional expressions
+  - JavaScript Expression
+  - Fragment (`<> </>` or `<Fragment>`)
+  - Components 🔴
+    - Class
+      - `render()`
+      - State and lifecycle
+    - Functional 🔴 (modern standard)
+  - Props
+    - Default props
+    - Prop types
+  - State 🔴
+    - `useState`
+    - State batching
+    - Immutable updates
+  - Lifecycles (Class) 🔴
+    - `componentDidMount`
+    - `componentDidUpdate`
+    - `componentWillUnmount`
+  - Handle events
+  - Conditional rendering
+    - `&&`, ternary `? :`, enum / lookup
+  - List and Keys 🔴
+    - `.map()`
+    - Why `key` matters
+  - Forms
+    - Controlled components 🔴
+    - Uncontrolled components
+  - Refs
+    - Create ref
+    - Forwarding ref (`forwardRef`) 🔴
+    - `useRef`
+  - Code Splitting 🔴
+    - `React.lazy`
+    - `Suspense`
+  - Controlled and Uncontrolled
+  - Higher Order Component (HOC)
+  - Error Boundaries
+  - Render props
+  - Portals (`createPortal`)
+  - Routing 🔴
+    - [React Router DOM](./Routing/README.md)
+      - Browser router
+      - Hash router
+      - `Router`, `Route`
+      - `Link`, `NavLink`
+      - `Navigate`
+      - `Outlet`
+      - Hooks (`useParams`, `useNavigate`, `useLocation`)
+  - [XHTTP Requests](./XHTTP/README.md)
+    - Fetch
+    - Axios 🔴
+    - React Query / TanStack Query 🔴
+  - [Styling and Visual libraries](./Styling/README.md)
+    - Reactstrap
+    - MUI (Material UI)
+    - Fluent UI
+    - Ant Design (antd)
+    - Tailwind CSS
+  - Hooks 🔴
+    - `useState`
+    - `useEffect` 🔴
+      - Dependency array
+      - Cleanup function
+    - `useContext`
+    - `useRef`
+    - `useMemo`
+    - `useCallback`
+    - `useReducer`
+    - Custom Hooks 🔴
+    - Rules of hooks 🔴
+  - [State managers](./StateManagers/README.md)
+    - Redux 🔴
+      - Introduction
+      - Reducer
+      - Actions
+      - `connect` (HOC)
+      - Redux hooks (`useSelector`, `useDispatch`)
+      - Redux Toolkit (RTK) 🔴
+    - Context API
+      - Provider
+      - Consumer
+      - `useContext`
+    - Zustand, Jotai, Recoil (modern alternatives)
+  - [Form Handling](#) 🔴
+    - Formik
+    - React Hook Form 🔴
+  - [Validation](./Validations/README.md)
+    - Yup 🔴
+    - Joi
+    - Zod
+  - Performance optimization 🔴
+    - `React.memo`
+    - `useMemo` / `useCallback`
+    - Virtualization (react-window)
+    - Code splitting
+  - React application structure <small>*(npx create-react-app --template structure)*</small>
+  - Build and deploy React application
+  - React 18+ features 🔴
+    - Automatic batching
+    - Transitions (`useTransition`, `useDeferredValue`)
+    - Suspense for data fetching
+    - Server Components
+
+---
+🔴 Very Important

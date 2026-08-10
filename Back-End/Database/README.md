@@ -1,0 +1,53 @@
+A database is an organized collection of data, and a Database Management System (DBMS) is the software that stores, queries, and manages it. Choosing the right database is one of the most consequential architectural decisions in any application.
+
+- Database
+  - Introduction 🔴
+    - What is a database and why we need one
+    - File-based storage vs database
+  - Database types 🔴
+    - Relational DBMS (RDBMS / SQL)
+    - Document Stores (NoSQL)
+    - Key/Value Stores (NoSQL)
+    - Graph DBMS
+    - Search Engines
+    - Time-series databases
+    - Wide-column stores
+  - ACID properties 🔴
+    - Atomicity, Consistency, Isolation, Durability
+  - BASE (for NoSQL)
+  - CAP Theorem 🔴
+    - Consistency, Availability, Partition tolerance
+    - Pick two
+  - Database concepts 🔴
+    - Schema
+    - Table / Collection / Document
+    - Row / Record / Document
+    - Column / Field
+    - Primary key 🔴
+    - Foreign key 🔴
+    - Index 🔴
+    - Constraints
+      - NOT NULL, UNIQUE, DEFAULT, CHECK
+    - Transactions 🔴
+      - BEGIN, COMMIT, ROLLBACK
+    - Joins
+      - INNER, LEFT, RIGHT, FULL OUTER
+    - Normalization 🔴
+      - 1NF, 2NF, 3NF, BCNF
+    - Denormalization
+    - Migrations 🔴
+  - Databases in this course
+    - [MySQL](./MySQL/README.md) -- Relational / SQL 🔴
+    - [MongoDB](./Mongodb/README.md) -- Document / NoSQL 🔴
+    - [Redis](./Redis/README.md) -- Key-Value / Cache 🔴
+  - ORM vs Query Builder vs Raw queries
+    - Sequelize, Prisma, TypeORM (SQL)
+    - Mongoose (MongoDB)
+  - Connection pooling 🔴
+  - Backup and restore
+  - Replication and sharding
+  - GUI tools
+    - phpMyAdmin, DBeaver, DataGrip, MongoDB Compass, RedisInsight
+
+---
+🔴 Very Important

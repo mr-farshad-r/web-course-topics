@@ -10,4 +10,7 @@
   - Events
   - Effects and Animations
   - Ajax
-  - Built-in Methods 
+  - Built-in Methods
+
+---
+🔴 Very Important

@@ -1,0 +1,55 @@
+Tailwind CSS is a utility-first CSS framework. Instead of pre-built components (like Bootstrap), it gives you low-level utility classes (`text-center`, `rounded-lg`, `flex`, `p-4`) that you compose directly in your HTML/JSX to build any design -- without writing custom CSS.
+
+- Tailwind CSS
+  - Introduction 🔴
+    - What Tailwind is (utility-first CSS framework)
+    - Philosophy: no pre-built components, compose utilities
+    - Why it's so popular (speed, consistency, small bundle)
+  - Installation 🔴
+    - Tailwind CLI
+    - PostCSS plugin (Webpack, Vite)
+    - Vite: `npm install -D tailwindcss @tailwindcss/vite` (v4)
+    - Next.js / CRA / Laravel / Vite guides
+  - Configuration (`tailwind.config.js`) 🔴
+    - `content` (which files to scan for classes)
+    - `theme.extend` (custom colors, fonts, spacing)
+    - Dark mode (`darkMode: 'class'`)
+    - Plugins (typography, forms, aspect-ratio)
+  - Core utility categories 🔴
+    - Layout: `flex`, `grid`, `block`, `hidden`, `container`
+    - Spacing: `p-4`, `m-2`, `gap-4`, `w-full`
+    - Typography: `text-lg`, `font-bold`, `text-gray-500`
+    - Colors: `bg-blue-500`, `text-red-600`, `border-gray-200`
+    - Borders: `border`, `rounded-lg`, `border-2`
+    - Effects: `shadow`, `shadow-lg`, `opacity-50`
+    - Transitions & animation
+    - Transform
+  - Responsive design 🔴
+    - Prefixes: `sm:`, `md:`, `lg:`, `xl:`, `2xl:`
+    - Mobile-first: `md:text-center` applies at `md` and up
+  - State variants 🔴
+    - Hover: `hover:bg-blue-600`
+    - Focus: `focus:ring-2`
+    - Active, group-hover, focus-within
+    - Dark mode: `dark:bg-gray-900`
+  - The `@apply` directive 🔴
+    - Use Tailwind utilities inside custom CSS
+    - For extracting repeated patterns
+  - Just-In-Time (JIT) mode 🔴
+    - Generates only the CSS you actually use
+    - Arbitrary values: `top-[117px]`, `grid-cols-[200px_minmax(900px,_1fr)]`
+  - Tailwind UI
+    - Official premium component library (paid)
+  - React + Tailwind 🔴
+    - The most popular modern React styling combo
+    - shadcn/ui + Tailwind (copy-paste components)
+  - Tailwind v4 🔴
+    - CSS-first config (`@theme` directive)
+    - Faster engine (Oxide)
+  - Pros and cons 🔴
+    - Pro: fast development, consistent, small output, dark mode easy
+    - Con: verbose HTML, learning curve, anti-pattern if overdone
+  - Tailwind vs Bootstrap vs CSS-in-JS 🔴
+
+---
+🔴 Very Important

@@ -1,0 +1,53 @@
+The OWASP Top 10 is a standard awareness document that lists the ten most critical security risks to web applications. Maintained by the Open Worldwide Application Security Project (OWASP), it is updated every few years and is the baseline literacy every web developer must have.
+
+- OWASP Top 10
+  - What is OWASP? 🔴
+    - Open Worldwide Application Security Project
+    - Non-profit, community-driven
+    - Top 10 is updated every 3-4 years (latest: 2021)
+  - Why the Top 10 matters 🔴
+    - Common baseline for web security literacy
+    - Referenced in compliance (PCI-DSS, etc.)
+    - Great checklist for code reviews and audits
+  - **A01:2021 – Broken Access Control** 🔴
+    - Users accessing data/features they shouldn't
+    - Defense: server-side authorization checks on every request
+    - Insecure direct object references (IDOR)
+  - **A02:2021 – Cryptographic Failures** 🔴
+    - Sensitive data exposed or weakly encrypted
+    - Defense: HTTPS everywhere, hash passwords (bcrypt/argon2), encrypt at rest
+  - **A03:2021 – Injection** 🔴
+    - SQL, NoSQL, OS command, LDAP injection
+    - Defense: parameterized queries / prepared statements, never concat user input 🔴
+  - **A04:2021 – Insecure Design** 🔴 (new in 2021)
+    - Flaws in architecture and design phase
+    - Defense: threat modeling, secure design patterns
+  - **A05:2021 – Security Misconfiguration** 🔴
+    - Default credentials, verbose errors, open S3 buckets
+    - Defense: hardening, disable defaults, minimal exposure
+  - **A06:2021 – Vulnerable and Outdated Components** 🔴
+    - Using libraries with known CVEs
+    - Defense: `npm audit`, Dependabot, keep patched
+  - **A07:2021 – Identification and Authentication Failures** 🔴
+    - Weak passwords, no rate limiting, session fixation
+    - Defense: bcrypt, MFA, rate limiting, secure session management
+  - **A08:2021 – Software and Data Integrity Failures** 🔴 (new)
+    - Untrusted CI/CD pipelines, unsigned updates
+    - Defense: signed dependencies, trusted registries
+  - **A09:2021 – Security Logging and Monitoring Failures** 🔴
+    - Not detecting attacks in time
+    - Defense: log security events, alerting, SIEM
+  - **A10:2021 – Server-Side Request Forgery (SSRF)** 🔴 (new)
+    - Server makes requests to attacker-controlled URLs
+    - Defense: validate and restrict outbound URLs
+  - How to use the Top 10 🔴
+    - Code review checklist
+    - Security training for the team
+    - Penetration testing scope
+  - Additional OWASP resources
+    - OWASP Cheat Sheet Series
+    - OWASP ZAP (free scanner)
+    - OWASP ASVS (Application Security Verification Standard)
+
+---
+🔴 Very Important

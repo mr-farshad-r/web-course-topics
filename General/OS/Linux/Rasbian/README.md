@@ -1,0 +1,29 @@
+Raspbian (renamed to **Raspberry Pi OS**) is the official Debian-based operating system for Raspberry Pi single-board computers. It is a great entry point into embedded Linux, home servers, IoT, and edge computing.
+
+- Raspberry Pi OS (Raspbian)
+  - What is Raspberry Pi? (single-board computer, ARM architecture)
+  - Hardware models (Zero, 3, 4, 5, 400)
+  - OS images
+    - Raspberry Pi OS Lite (headless) vs Full (desktop)
+    - Raspberry Pi Imager
+  - Headless setup 🔴
+    - Flashing the microSD card
+    - `ssh` file to enable SSH on first boot
+    - `wpa_supplicant.conf` for Wi-Fi
+  - Default credentials (`pi` / `raspberry`) — change immediately
+  - `raspi-config` tool
+    - Change password
+    - Expand filesystem
+    - Enable interfaces (SSH, VNC, SPI, I2C)
+  - Package management (`apt` — same as Debian/Ubuntu)
+  - ARM architecture considerations (`armhf`, `arm64`)
+  - Common use cases
+    - Home server (Pi-hole, Nextcloud, Home Assistant)
+    - Media center (Kodi / OSMC)
+    - Retro gaming (RetroPie)
+    - Learning / education (Scratch, Python GPIO)
+  - GPIO pins and hardware control 🔴
+    - `gpio` / `lgpio` tools
+    - Python libraries (`RPi.GPIO`, `gpiozero`)
+  - Power and thermal management
+  - Backing up (image the SD card with `dd`)

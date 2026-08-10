@@ -1,0 +1,58 @@
+PHP is a server-side scripting language designed specifically for the web. It powers nearly 75% of the web -- including WordPress, Drupal, and countless Laravel applications -- and remains one of the fastest ways to build and deploy dynamic websites.
+
+- PHP
+  - Introduction 🔴
+    - What is PHP (server-side, web-focused, interpreted)
+    - History and PHP 8+ renaissance
+    - Why PHP is still everywhere (WordPress, Laravel, shared hosting)
+  - PHP vs other backend languages
+  - Installation 🔴
+    - Local: XAMPP, MAMP, Laragon, Herd
+    - macOS: `brew install php`
+    - Linux: `sudo apt install php`
+    - Docker
+  - Basics
+    - Tags `<?php ... ?>`
+    - Variables `$var`
+    - Data types (string, int, float, bool, array, object, null)
+    - Operators
+    - Conditionals, loops
+    - Functions
+    - Superglobals (`$_GET`, `$_POST`, `$_SERVER`, `$_SESSION`, `$_COOKIE`) 🔴
+  - Forms handling 🔴
+    - `$_POST` / `$_GET`
+    - Validation and sanitization
+  - Sessions and Cookies 🔴
+  - File handling and upload
+  - Database
+    - MySQL with `PDO` 🔴 (recommended) or `mysqli`
+    - Prepared statements (prevent SQL injection) 🔴
+  - Composer (PHP package manager) 🔴
+    - `composer init`, `composer require`, `composer install`
+    - `vendor/`, `composer.json`, `composer.lock`
+    - Autoloading (PSR-4)
+  - Error handling and exceptions
+  - Security 🔴
+    - SQL injection -> prepared statements
+    - XSS -> `htmlspecialchars()`
+    - CSRF -> tokens
+    - `password_hash()` / `password_verify()` 🔴
+  - HTTP
+    - `header()` for redirects and content types
+    - `json_encode()` for APIs 🔴
+  - REST API in plain PHP
+  - **Frameworks and Libraries** 🔴
+    - [Laravel](#) 🔴 -- the dominant PHP framework
+      - Eloquent ORM, Blade, Artisan, Queues, Sanctum
+    - [CodeIgniter](#) -- lightweight, fast
+    - Symfony (Laravel's foundation)
+  - Deployment 🔴
+    - Shared hosting (cPanel) -- FTP + MySQL
+    - VPS with Apache/Nginx + PHP-FPM
+    - `php artisan serve` (Laravel dev)
+  - Coding standards (PSR-12) 🔴
+  - Tools
+    - phpstan, php-cs-fixer, Xdebug
+
+---
+🔴 Very Important

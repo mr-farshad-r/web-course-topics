@@ -1,0 +1,53 @@
+Handlebars is a popular, logic-less template engine that compiles templates into JavaScript functions. It keeps logic out of templates (pushing it to the data-preparation step), which makes them clean and maintainable.
+
+- Handlebars
+  - Introduction 🔴
+    - What Handlebars is (logic-less templating)
+    - Built on top of Mustache (superset)
+    - Templates compile to JS functions
+  - Installation
+    - `npm install handlebars`
+    - Browser and Node.js support
+  - Basic syntax 🔴
+    - Variables: `{{ name }}`
+    - HTML-escaped by default 🔴
+    - Raw (unescaped): `{{{ htmlContent }}}`
+  - Block helpers 🔴
+    - Conditional: `{{#if user}}...{{else}}...{{/if}}`
+    - Loop: `{{#each items}}...{{/each}}`
+    - `{{this}}`, `{{@index}}`, `{{@key}}`
+  - Comments
+    - `{{!-- comment --}}` or `{{! comment }}`
+  - Paths
+    - `{{./local}}`, `{{../parent}}`, `{{../../grandparent}}`
+  - Partials 🔴
+    - Reusable template fragments
+    - `{{> partialName}}`
+    - `Handlebars.registerPartial('name', template)`
+  - Helpers 🔴
+    - Built-in: `if`, `unless`, `each`, `with`, `lookup`, `log`
+    - Custom helpers 🔴
+      - `Handlebars.registerHelper('upper', str => str.toUpperCase())`
+      - Block helpers (advanced)
+  - Built-in helpers
+    - `{{#with person}}` (change context)
+    - `{{#unless error}}` (inverse of if)
+  - Precompilation 🔴
+    - Compile templates to JS ahead of time (faster runtime)
+    - `handlebars` CLI
+  - Data preparation 🔴
+    - Because Handlebars is logic-less, prepare data in JS
+  - Use cases
+    - Email templates
+    - Static site generators (Eleventy, Assemble)
+    - Express.js view engine (`express-handlebars`)
+    - Generating HTML from JSON
+  - Handlebars vs Mustache 🔴
+    - Mustache = strictly logic-less
+    - Handlebars = adds helpers, precompilation
+  - Security 🔴
+    - Auto-escaping prevents XSS
+    - Use `{{{ }}}` only for trusted HTML
+
+---
+🔴 Very Important

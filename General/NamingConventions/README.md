@@ -1,0 +1,57 @@
+Naming conventions are the set of rules a team follows to name files, variables, functions, classes, CSS classes, database tables, and more. Consistent naming is the single highest-leverage code-quality rule — it makes codebases readable, searchable, and maintainable.
+
+- Naming Conventions
+  - Why naming matters (code is read 10× more than written)
+  - Core principles 🔴
+    - Meaningful and intention-revealing
+    - Pronounceable and searchable
+    - Consistent within a codebase
+    - Avoid abbreviations unless universal (`url`, `db`, `id`)
+    - Avoid negations (`isNotEmpty` vs `isEmpty`)
+  - Cases 🔴
+    - `camelCase` — variables, functions (JS, TS, Java)
+    - `PascalCase` — classes, components, types (React, TS)
+    - `snake_case` — Python, Rust, SQL, files in some stacks
+    - `kebab-case` — CSS classes, URLs, file names in JS projects
+    - `SCREAMING_SNAKE_CASE` — constants, environment variables
+    - `dot.notation` — config files, locale keys
+  - Language-specific customs
+    - JavaScript / TypeScript
+      - `camelCase` for variables and functions
+      - `PascalCase` for classes and React components
+      - `UPPER_SNAKE` for constants
+      - Boolean prefixes: `is...`, `has...`, `can...`, `should...`
+    - Python (PEP 8)
+      - `snake_case` for functions and variables
+      - `PascalCase` for classes
+      - `UPPER_SNAKE` for constants
+    - PHP (PSR-12)
+      - `camelCase` for methods
+      - `PascalCase` for classes
+    - SQL
+      - `snake_case` for tables and columns
+      - Plural table names (`users`, `orders`) vs singular
+  - File and folder naming
+    - `kebab-case` in JS/TS projects
+    - One component per file, file = component name
+  - Database naming
+    - Table prefixes in shared DBs (`wp_`, `tbl_`)
+    - Foreign keys: `<table_singular>_id` (`user_id`)
+    - Junction tables: `post_tag`
+    - Timestamps: `created_at`, `updated_at`
+  - CSS / BEM 🔴
+    - `.block__element--modifier`
+    - Example: `.card__title--large`
+  - Git branch naming
+    - `feature/...`, `bugfix/...`, `hotfix/...`, `release/...`
+  - Commit messages (Conventional Commits)
+    - `feat:`, `fix:`, `docs:`, `refactor:`, `chore:`, `breaking:`
+  - REST API naming
+    - Plural nouns, lowercase, kebab-case (`/api/v1/user-profiles`)
+  - Anti-patterns
+    - `data`, `info`, `temp`, `foo`, `var1`
+    - Hungarian notation (`strName`, `intCount`) — mostly obsolete
+    - Reserved words as names
+
+---
+🔴 Very Important

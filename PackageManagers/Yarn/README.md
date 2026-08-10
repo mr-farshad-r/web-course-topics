@@ -1,0 +1,54 @@
+Yarn is a JavaScript package manager created by Facebook (Meta) in 2016 as an alternative to npm. It introduced lockfiles, offline caching, and faster installs -- features that npm later adopted. Today Yarn and npm are both mature, and the choice is largely preference.
+
+- Yarn
+  - Introduction 🔴
+    - What Yarn is (JavaScript package manager, npm alternative)
+    - History (2016, solved npm v3 problems: speed, determinism, security)
+    - Yarn vs npm today (both good; npm caught up)
+  - Versions 🔴
+    - **Yarn Classic** (v1) -- widely used, legacy
+    - **Yarn Modern** (v2 / v3 / v4 -- "Berry") -- newer, different architecture
+    - Check version: `yarn --version`
+  - Installation
+    - Classic: `npm install -g yarn`
+    - Modern: `yarn set version berry` (per-project via Corepack)
+    - Corepack (Node 16+) -- manages Yarn versions
+  - Basic commands (Classic) 🔴
+    - `yarn init` -- create `package.json`
+    - `yarn` or `yarn install` -- install all dependencies
+    - `yarn add <package>` -- add a dependency
+    - `yarn add -D <package>` -- add a devDependency
+    - `yarn remove <package>`
+    - `yarn upgrade <package>`
+    - `yarn run <script>`
+  - Yarn vs npm command comparison 🔴
+    - `npm install` <-> `yarn`
+    - `npm install <pkg>` <-> `yarn add <pkg>`
+    - `npm uninstall` <-> `yarn remove`
+    - `npm run <script>` <-> `yarn <script>`
+  - Lockfile 🔴
+    - `yarn.lock` -- pins exact versions (like `package-lock.json`)
+    - Must be committed to version control
+  - Workspaces (monorepos) 🔴
+    - Manage multiple packages in one repo
+    - Hoist shared dependencies
+    - `workspaces` field in root `package.json`
+  - Yarn Modern (Berry) features 🔴
+    - **Plug'n'Play (PnP)** -- no `node_modules`, faster installs 🔴
+    - Zero-installs (commit `.yarn/cache` to Git)
+    - Constraints and plugins
+    - Better workspace support
+  - Global packages
+    - Classic: `yarn global add`
+    - Modern: prefers per-project devDependencies
+  - Scripts 🔴
+    - `yarn <script-name>` (no `run` needed)
+  - When to choose Yarn over npm 🔴
+    - Large monorepos (workspaces)
+    - Team standardization
+    - Need PnP / zero-installs (Berry)
+  - When npm is fine 🔴
+    - Most projects (npm is default, bundled with Node)
+
+---
+🔴 Very Important

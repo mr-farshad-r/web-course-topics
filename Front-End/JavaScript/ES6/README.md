@@ -1,0 +1,74 @@
+ES6 (ECMAScript 2015) was the biggest upgrade in JavaScript's history, introducing classes, modules, promises, arrow functions, `let`/`const`, and many more features that define modern JS. Almost every "modern JavaScript" feature you use today traces back to ES6 and the annual releases that followed.
+
+- ES6 and Modern JavaScript
+  - What is ECMAScript vs JavaScript
+  - TC39 process (annual releases: ES2016, ES2017, ..., ES2024)
+  - Variables 🔴
+    - `var` vs `let` vs `const`
+    - Block scope
+  - Arrow functions 🔴
+    - Syntax
+    - Lexical `this`
+    - No `arguments` binding
+  - Template literals 🔴
+    - String interpolation `${expr}`
+    - Multi-line strings
+    - Tagged templates
+  - Destructuring 🔴
+    - Arrays
+    - Objects
+    - Default values
+    - Renaming
+  - Spread and Rest operators 🔴
+    - Spread `...` (arrays, objects)
+    - Rest parameters `...args`
+  - Enhanced object literals
+    - Shorthand properties / methods
+    - Computed property names
+  - Default parameters
+  - Classes 🔴
+    - `class`, `constructor`, `extends`, `super`
+    - Static methods
+    - Getters / setters
+  - Modules 🔴
+    - `export` / `export default`
+    - `import`
+    - Named vs default imports
+    - Dynamic `import()`
+  - Promises 🔴
+    - States: pending / fulfilled / rejected
+    - `.then`, `.catch`, `.finally`
+    - Chaining
+    - `Promise.all`, `Promise.race`, `Promise.allSettled`
+  - Async / Await 🔴
+    - Syntax sugar over Promises
+    - Error handling with try/catch
+  - Iterators and Generators 🔴
+    - `function*`, `yield`
+    - Symbol.iterator
+  - `for...of` and `for...in` 🔴
+  - New collections
+    - `Map` / `WeakMap` 🔴
+    - `Set` / `WeakSet`
+  - Symbols 🔴
+  - New string methods
+    - `includes`, `startsWith`, `endsWith`, `repeat`, `padStart`, `padEnd`
+  - New array methods 🔴
+    - `map`, `filter`, `reduce`
+    - `find`, `findIndex`
+    - `some`, `every`
+    - `flat`, `flatMap`
+    - `from`, `of`
+  - Number and Math updates
+    - `Number.isInteger`, `Number.isNaN`
+    - `**` exponentiation operator
+  - Object methods
+    - `Object.assign`, `Object.keys/values/entries`
+    - `Object.freeze`, `Object.fromEntries`
+  - Optional chaining `?.` and Nullish coalescing `??` 🔴
+  - Logical assignment (`||=`, `&&=`, `??=`)
+  - Numeric separators (`1_000_000`)
+  - Top-level `await`
+
+---
+🔴 Very Important

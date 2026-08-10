@@ -1,0 +1,74 @@
+Express.js is the most popular, minimalist web framework for Node.js. It provides a thin layer of routing and middleware over Node's native HTTP module, and is the foundation of most Node web applications and APIs.
+
+- Express.js
+  - Introduction 🔴
+    - What Express is (and isn't)
+    - Alternatives: Koa, Fastify, NestJS, Hapi
+  - Installation
+    - `npm install express`
+    - [Express Generator](#) (`npx express-generator`)
+  - Hello World! 🔴
+    - `app.get('/', (req, res) => res.send('Hello'))`
+    - `app.listen(3000)`
+  - Request / Response cycle
+    - `req` (params, query, body, headers, cookies)
+    - `res` (send, json, status, redirect, render)
+  - Routing 🔴
+    - HTTP methods (`get`, `post`, `put`, `patch`, `delete`)
+    - Route paths and parameters
+      - `app.get('/users/:id', ...)`
+    - `req.params`, `req.query`, `req.body`
+    - `express.Router()` -- modular routing 🔴
+  - Static files 🔴
+    - `express.static('public')`
+  - Middleware 🔴
+    - What middleware is (`req, res, next`)
+    - `app.use()`
+    - Application-level vs Router-level
+    - Built-in
+      - `express.json()`
+      - `express.urlencoded()`
+      - `express.static()`
+    - Third-party 🔴
+      - `cors`
+      - `morgan` (logging)
+      - `helmet` (security headers)
+      - `compression`
+      - `multer` (file uploads)
+    - Error-handling middleware 🔴
+      - `(err, req, res, next)`
+  - Template Engine
+    - [PUG](#) (formerly Jade)
+    - EJS
+    - Handlebars
+  - JSON Web Token (JWT) 🔴
+    - `jsonwebtoken` package
+    - Sign / verify / decode
+    - Auth middleware pattern
+  - Connect to database 🔴
+    - MongoDB (`mongoose`) 🔴
+    - MySQL (`mysql2` / `sequelize` / `prisma`)
+    - Connection pooling
+  - Project structure best practices 🔴
+    - MVC pattern
+    - Routes / Controllers / Models / Services
+    - Config and environment separation
+  - Security 🔴
+    - Helmet
+    - Rate limiting (`express-rate-limit`)
+    - Input validation (`joi`, `zod`, `express-validator`)
+    - CORS configuration
+    - Prevent SQL/NoSQL injection
+  - Error handling patterns
+    - Central error handler
+    - `asyncHandler` wrapper
+    - Custom `AppError` class
+  - Testing
+    - Jest + Supertest 🔴
+  - Deploy
+    - [PM2](./../PM2/README.md)
+    - Docker
+    - Nginx reverse proxy
+
+---
+🔴 Very Important

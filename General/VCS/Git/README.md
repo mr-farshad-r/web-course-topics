@@ -1,0 +1,86 @@
+Git is a free, open-source, distributed version control system created by Linus Torvalds in 2005. It is the de-facto standard for source control in the software industry -- knowing Git is not optional for a professional developer.
+
+- Git
+  - What is Git and why it dominates 🔴
+  - Distributed model -- every clone is a full repo
+  - Core concepts 🔴
+    - Working directory
+    - Staging area (index)
+    - Local repository
+    - Remote repository
+    - Commit (snapshot, not diff)
+    - HEAD
+  - Installation and setup
+    - `git config --global user.name`
+    - `git config --global user.email`
+    - `git config --global init.defaultBranch main`
+    - `git config --global core.editor`
+  - Repository lifecycle
+    - init `git init`
+    - status `git status`
+    - add `git add FILE_NAMEs`
+    - commit `git commit -m "MESSAGE"`
+    - log `git log`
+      - `--oneline`, `--graph`, `--all`
+  - diff 🔴
+    - diff with HEAD `git diff HEAD`
+    - diff with stage `git diff --staged`
+  - Undoing changes 🔴
+    - reset `git reset FILE_NAMEs` (unstage)
+    - checkout
+      - remove file from stage `git checkout -- FILE_NAME`
+      - checkout from tag `git checkout TAG_NAME`
+    - `git restore` (newer, recommended)
+    - `git revert` (undo a commit publicly)
+    - `git reset --soft/--mixed/--hard`
+  - branch 🔴
+    - list `git branch`
+    - create `git branch BRANCH_NAME`
+    - switch `git switch BRANCH_NAME` / `git checkout BRANCH_NAME`
+    - create + switch `git switch -c BRANCH_NAME`
+    - delete `git branch -d BRANCH_NAME`
+    - rename `git branch -m NEW_NAME`
+  - merge `git merge BRANCH_NAME`
+    - Fast-forward vs 3-way merge
+    - Merge conflicts 🔴 and how to resolve them
+  - rebase 🔴
+    - `git rebase BRANCH`
+    - Interactive rebase (`-i`) -- squash, reorder, edit
+    - rebase vs merge (the great debate)
+  - rm `git rm FILE_NAME`
+  - clone `git clone GIT_REPOSITORY_ADDRESS`
+    - `--depth 1` (shallow)
+  - push `git push origin BRANCH_NAME`
+  - pull `git pull origin BRANCH_NAME`
+    - `git pull --rebase`
+  - fetch `git fetch` (download without merging)
+  - remote 🔴
+    - list `git remote` / `git remote -v`
+    - add `git remote add origin GIT_REPOSITORY_ADDRESS`
+    - change `git remote set-url origin NEW_URL`
+  - show `git show [COMMIT_HASH or TAG_NAME]`
+  - tag 🔴
+    - list `git tag`
+    - create `git tag -a VERSION -m "MESSAGE"`
+    - create from commit `git tag -a VERSION COMMIT_HASH -m "MESSAGE"`
+    - search `git tag -l "SEARCH_PATTERN"`
+    - push tags `git push origin TAG_NAME` / `git push origin --tags`
+  - blame `git blame FILE_NAME -L LINE_NUMBER`
+  - bisect (binary search for a bug) 🔴
+    - `git bisect start`
+    - `git bisect bad`
+    - `git bisect good COMMIT_HASH`
+  - stash (`git stash`, `git stash pop`)
+  - cherry-pick `git cherry-pick COMMIT_HASH`
+  - reflog -- your safety net 🔴
+  - .gitignore
+  - Hooks (pre-commit, pre-push)
+  - Submodules
+  - Best practices
+    - Small, atomic commits
+    - Clear commit messages (imperative mood)
+    - Pull frequently, resolve conflicts early
+    - Never rebase shared branches
+
+---
+🔴 Very Important

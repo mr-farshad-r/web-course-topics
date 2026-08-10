@@ -1,0 +1,58 @@
+Design patterns are proven, reusable solutions to common problems in software design. They are not finished code you can copy — they are templates for solving a class of problem. Knowing them gives you a shared vocabulary with other engineers and helps you write code that scales.
+
+- Design Patterns
+  - History (Gang of Four — GoF, 1994)
+  - Elements of a pattern: Name, Problem, Solution, Consequences
+  - Categories 🔴
+    - Creational — how objects are created
+    - Structural — how objects are composed
+    - Behavioral — how objects communicate
+  - **Creational**
+    - Singleton 🔴
+    - Factory Method
+    - Abstract Factory
+    - Builder
+    - Prototype
+  - **Structural**
+    - Adapter (Wrapper)
+    - Decorator 🔴
+    - Facade 🔴
+    - Composite
+    - Proxy
+    - Bridge
+    - Flyweight
+  - **Behavioral**
+    - Observer / Pub-Sub 🔴
+    - Strategy 🔴
+    - Command
+    - Iterator
+    - State
+    - Template Method
+    - Chain of Responsibility
+    - Mediator
+    - Memento
+    - Visitor
+  - Where you already see them
+    - React: Observer (state), Strategy (conditional rendering), Decorator (HOC)
+    - Node.js: EventEmitters (Observer), middleware (Chain of Responsibility)
+    - Express: middleware chain
+  - Anti-patterns (when NOT to use a pattern)
+    - Over-engineering — don't pattern every 3-line function
+    - Singleton abuse → global state
+    - God object
+    - Spaghetti code
+    - Copy-paste programming
+  - SOLID principles 🔴
+    - **S**ingle Responsibility
+    - **O**pen/Closed
+    - **L**iskov Substitution
+    - **I**nterface Segregation
+    - **D**ependency Inversion
+  - Other fundamental principles
+    - DRY (Don't Repeat Yourself)
+    - KISS (Keep It Simple, Stupid)
+    - YAGNI (You Aren't Gonna Need It)
+    - Composition over inheritance
+
+---
+🔴 Very Important

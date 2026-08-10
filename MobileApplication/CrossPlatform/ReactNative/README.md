@@ -1,0 +1,65 @@
+React Native is a cross-platform mobile framework created by Facebook (Meta) that lets you build real native iOS and Android apps using JavaScript and React. You write components in React; React Native renders actual native UI elements.
+
+- React Native
+  - Introduction 🔴
+    - What React Native is (React -> native mobile UI)
+    - Not a WebView -- renders real native components
+    - Used by Instagram, Facebook, Discord, Shopify, Tesla
+  - Prerequisites 🔴
+    - React knowledge (hooks, components, props, state)
+    - JavaScript / TypeScript
+    - Mac for iOS builds; any OS for Android
+  - Setup 🔴
+    - **Expo** 🔴 (recommended, easiest)
+      - `npx create-expo-app myApp`
+      - Expo Go app for instant testing on your phone
+      - EAS Build for cloud builds (no Xcode/Android Studio needed)
+    - React Native CLI (bare workflow, more control)
+      - `npx react-native init MyApp`
+  - Core components 🔴
+    - `<View>` (like `<div>`)
+    - `<Text>` (like `<p>` / `<span>`)
+    - `<Image>`, `<ScrollView>`, `<FlatList>`, `<TextInput>`
+    - `<Pressable>` / `<TouchableOpacity>` (buttons)
+  - Styling 🔴
+    - `StyleSheet.create()`
+    - Flexbox (default `flexDirection: 'column'`)
+    - No CSS files -- JS objects only
+    - Units are numbers (treated as `dp`, not `px`)
+  - Layout
+    - Flexbox 🔴 (similar to web, with differences)
+    - `SafeAreaView` (notches)
+    - Responsive design (Dimensions API)
+  - Navigation 🔴
+    - **React Navigation** (standard library)
+      - Stack, Tab, Drawer navigators
+      - `useNavigation`, `useRoute` hooks
+      - Deep linking
+    - Expo Router (file-based, like Next.js) 🔴
+  - State management
+    - Same as React: `useState`, `useReducer`, Context
+    - Redux / Zustand / React Query all work
+  - Device APIs 🔴
+    - Camera, location, notifications, clipboard
+    - Expo packages (`expo-camera`, `expo-location`)
+    - Bare: community modules
+  - Networking
+    - `fetch` and Axios work as on web
+    - React Query works unchanged
+  - Performance 🔴
+    - Avoid re-renders (`React.memo`, `useCallback`)
+    - Lists: use `FlatList` (virtualized), not `.map`
+    - Offload heavy work to native threads
+  - Native modules 🔴
+    - Bridge between JS and native code
+    - Write Swift/Kotlin when a library doesn't exist
+    - JSI (new architecture, removes bridge overhead)
+  - Building and deploying 🔴
+    - Expo: `eas build` + `eas submit`
+    - Bare: Xcode / Android Studio
+    - Over-the-air (OTA) updates (Expo Updates / CodePush)
+  - New Architecture (Fabric + TurboModules) 🔴
+  - React Native vs Flutter 🔴
+
+---
+🔴 Very Important

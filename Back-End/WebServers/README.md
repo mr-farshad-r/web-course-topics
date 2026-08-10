@@ -1,0 +1,45 @@
+A web server is the software that receives HTTP requests from clients (browsers) and returns responses (HTML, JSON, static files). Whether you serve a static site or proxy to an application server, understanding the web server layer is essential for deploying real applications.
+
+- Web Servers
+  - What is a web server? 🔴
+    - HTTP request/response lifecycle
+    - Static vs dynamic content
+  - Key responsibilities
+    - Serve static files (HTML, CSS, JS, images)
+    - TLS/SSL termination (HTTPS) 🔴
+    - Reverse proxy to application servers (Node, PHP-FPM, Python, ...)
+    - Load balancing 🔴
+    - Compression (gzip, brotli)
+    - Caching
+    - Virtual hosts (multiple sites on one server)
+  - [Nginx](./Nginx/README.md) 🔴
+  - [Apache](./Apache/README.md)
+  - Common concepts across all servers
+    - Configuration files 🔴
+    - Document root
+    - Directory index (`index.html`, `index.php`)
+    - Access and error logs
+    - MIME types
+    - Rewrite rules (URL rewriting)
+    - Security headers
+    - Rate limiting
+  - Reverse proxy pattern 🔴
+    - Browser -> Nginx -> App server (Node/Express, PHP-FPM, Uvicorn)
+    - Benefits: TLS, caching, static offloading, scaling
+  - Load balancing algorithms
+    - Round-robin, least connections, IP hash
+  - HTTPS and certificates 🔴
+    - Let's Encrypt + Certbot
+    - Auto-renewal
+  - Performance
+    - HTTP/2, HTTP/3
+    - Keep-alive
+    - Compression
+    - Caching headers (`Cache-Control`, `ETag`)
+  - Process models
+    - Prefork / worker (Apache)
+    - Event-driven / async (Nginx)
+  - When to use Nginx vs Apache 🔴
+
+---
+🔴 Very Important
