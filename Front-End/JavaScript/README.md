@@ -1,4 +1,6 @@
-- JavaScript ❤️
+JavaScript is the programming language of the web -- it runs in every browser, on servers (Node.js), in mobile apps (React Native), and on desktops (Electron). It is the single most important language for a web developer to master, and the ecosystem around it (npm, frameworks, tools) is the largest in the world.
+
+- JavaScript ❤️ 🔴
     - Introduction
       - Case sensitivity
       - JavaScript Environments
@@ -53,7 +55,7 @@
         - ***This*** 🔴
         - Param and Arguments
         - Return
-        - Change ```this``` rule
+        - Change `this` rule (call, bind, apply)
         - First Class Function
         - Closure
         - Constructor
@@ -62,7 +64,7 @@
     - Object
         - Access types
         - keys and values
-        - ```delete``` key
+        - `delete` key
     - JSON
         - Parse
         - Stringify
@@ -98,24 +100,24 @@
     - String methods
         - Single or Double Quote
         - Concat
-        - \n \t
-        - Length
-        - IndexOf
-        - Slice
-        - Substring
-        - SubStr
-        - Replace
-        - To Upper Case
-        - To Lower Case
-        - Trim
-        - Split
-        - Char Code At
-        - Pars Int
+        - `\n` `\t`
+        - `length`
+        - `indexOf()`
+        - `slice()`
+        - `substring()`
+        - `substr()`
+        - `replace()`
+        - `toUpperCase()`
+        - `toLowerCase()`
+        - `trim()`
+        - `split()`
+        - `charCodeAt()`
+        - `parseInt()`
         - Regular Expression
     - Number methods
-        - To String
-        - To Fixed
-        - Pars Float
+        - `toString()`
+        - `toFixed()`
+        - `parseFloat()`
     - Array methods
         - Length
         - Join

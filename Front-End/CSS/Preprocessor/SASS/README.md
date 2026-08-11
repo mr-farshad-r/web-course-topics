@@ -1,14 +1,63 @@
-### Sass CSS preprocessor
+Sass (Syntactically Awesome Style Sheets) is the most popular and mature CSS preprocessor. It extends CSS with variables, nesting, mixins, inheritance, and functions -- features that let you write DRY, maintainable stylesheets that compile down to standard CSS.
 
-- Introduction
-- Installation
-- Watch
-- Variables
-- Nesting
-- Partials import
-- Mixins
-- Extend / Inheritance
-- Operators
+- Sass / SCSS
+  - Introduction 🔴
+    - What Sass is (CSS preprocessor -> compiles to CSS)
+    - Sass vs SCSS 🔴
+      - Sass (`.sass`): indentation-based, no braces or semicolons
+      - SCSS (`.scss`): CSS-compatible syntax (superset of CSS), braces and semicolons
+      - SCSS is more popular and easier to adopt
+  - Installation 🔴
+    - `npm install -g sass` (Dart Sass, the official implementation)
+    - LibSass / Node-Sass (deprecated -- use Dart Sass)
+    - Build tool integration (Vite, Webpack, Parcel compile Sass automatically)
+  - Watch mode 🔴
+    - `sass --watch input.scss output.css`
+    - `sass --watch app/scss:public/css` (directory watching)
+  - Variables 🔴
+    - `$primary-color: #3498db;`
+    - `$spacing: 16px;`
+    - Scope (local vs global)
+  - Nesting 🔴
+    - Nested selectors (mirror HTML structure)
+    - `&` parent selector reference
+      - `&:hover`, `&--modifier`, `.parent &`
+    - Avoid deep nesting (max 3 levels)
+  - Partials and Import 🔴
+    - `_filename.scss` (partial, prefixed with `_`)
+    - `@use 'filename'` (modern, recommended)
+    - `@import` (legacy, being phased out)
+    - `@forward` (for writing libraries)
+  - Mixins 🔴
+    - Reusable blocks of CSS
+    - `@mixin name($args) { ... }` / `@include name(args);`
+    - Examples: clearfix, media queries, flexbox helpers
+  - Extend / Inheritance 🔴
+    - `@extend .class;` -- share styles between selectors
+    - Placeholder selectors `%base-class`
+  - Operators and Math 🔴
+    - `+`, `-`, `*`, `/`, `%`
+    - `width: 100% - 20px;` (unit math)
+    - Comparison operators in conditionals
+  - Control directives
+    - `@if` / `@else`
+    - `@for`, `@each`, `@while`
+  - Functions
+    - `lighten()`, `darken()`, `transparentize()`
+    - `map-get()`, `length()`, `str-index()`
+  - Data structures
+    - Lists (`$list: a b c;`)
+    - Maps (`$map: (key: value, key2: value2);`)
+  - Built-in modules (Sass 1.23+)
+    - `@use 'sass:color'`, `@use 'sass:map'`, `@use 'sass:list'`
+  - Modular Sass architecture
+    - 7-1 pattern (7 folders, 1 main file)
+  - Sass vs modern CSS 🔴
+    - CSS now has custom properties, nesting, `@layer`
+    - But Sass still offers mixins, loops, functions, better tooling
+  - Sass + CSS frameworks
+    - Bootstrap 5 source is Sass
+    - Many design systems use Sass for theming
 
 ---
 🔴 Very Important
