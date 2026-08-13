@@ -1,0 +1,74 @@
+TypeScript is a strongly-typed superset of JavaScript that compiles to plain JavaScript. It adds static types, catching errors at compile time instead of runtime, and powers large-scale applications (and the modern React ecosystem). Anywhere JavaScript runs, TypeScript runs.
+
+- TypeScript
+  - Introduction 🔴
+    - What and why (static typing, tooling, refactoring safety)
+    - TypeScript vs JavaScript
+    - Relationship to JavaScript (TS is a superset; JS is valid TS)
+  - Installation
+    - `npm install -g typescript`
+    - `tsc --version`
+  - Configs 🔴
+    - `tsconfig.json`
+      - `target` (ES5, ES6, ESNext)
+      - `module` (CommonJS, ESNext)
+      - `strict` mode
+      - `lib`, `outDir`, `rootDir`
+      - `jsx` (for React)
+  - Type
+    - Primitive 🔴
+      - `string`, `number`, `boolean`
+      - `null`, `undefined`
+      - `bigint`, `symbol`
+    - Object literal 🔴
+      - `let user: { name: string; age: number }`
+    - Array
+      - `number[]`, `Array<string>`
+    - Tuple 🔴
+      - `[string, number]`
+    - Union 🔴
+      - `string | number`
+    - Intersection 🔴
+      - `A & B`
+    - Indexing
+    - From value
+      - `typeof`
+    - From functions return
+    - From Module
+    - Mapped 🔴
+    - Conditional 🔴
+      - `T extends U ? X : Y`
+    - Template union types
+  - `any` vs `unknown` vs `never` 🔴
+  - Interface 🔴
+    - Built-in type
+    - Common Built-in type (`Partial`, `Readonly`, `Pick`, `Omit`, `Record`)
+    - Literal type
+    - Avoid
+    - Extends
+    - Optional (`?`)
+    - Readonly
+    - Generics 🔴
+    - Getter and Setter
+  - `interface` vs `type` -- when to use which 🔴
+  - Control Flow
+    - Typeof 🔴 (type narrowing)
+    - Instanceof
+    - In (`'prop' in obj`)
+    - Is (custom type guards / predicates)
+  - Class
+    - Private (`private`, `#`)
+    - Implements
+    - Abstract 🔴
+    - Decorators and Attributes
+  - Enums
+  - Utility types
+  - Type assertions (`as`) -- use sparingly 🔴
+  - Declaration files (`.d.ts`)
+  - TypeScript with React 🔴
+    - `React.FC`, props typing, event types
+    - `useRef<T>`, `useState<T>`
+  - ts-node, tsx, Vite, esbuild -- running TS directly
+
+---
+🔴 Very Important

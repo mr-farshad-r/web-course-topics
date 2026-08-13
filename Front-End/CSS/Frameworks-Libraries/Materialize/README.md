@@ -1,0 +1,46 @@
+Materialize is a CSS framework based on Google's Material Design guidelines. It provides components, animations, and a grid system that follow Material Design principles.
+
+- Materialize
+  - Introduction 🔴
+    - What Materialize is (Material Design CSS + JS framework)
+    - Based on Google's Material Design spec
+  - Installation 🔴
+    - CDN (CSS + JS)
+    - Download or npm install
+    - Note: Materialize CSS 1.x is jQuery-dependent
+  - The grid system 🔴
+    - 12-column grid
+    - `container`, `row`, `col s12 m6 l4`
+  - Components
+    - Navbar, cards, collections, chips
+    - Buttons: FAB (floating action button), raised, flat
+    - Modal, dropdown, tabs
+    - Carousel, slider, parallax
+    - Forms with Material styling
+  - Material Design concepts 🔴
+    - Material (elevation via shadows)
+    - Meaningful motion (transitions)
+    - Bold, deliberate color choices
+    - Responsive UI
+  - JavaScript components 🔴
+    - Need jQuery (Materialize 1.x)
+    - Init via `M.AutoInit()` or individual inits
+    - Select, Datepicker, Timepicker, Sidenav
+  - Utility classes
+    - Colors: `red`, `blue`, `teal` + `lighten-*` / `darken-*`
+    - Typography: `flow-text`
+    - Helpers: `valign-wrapper`, `center-align`
+  - Icons
+    - Uses Material Icons (Google font)
+  - Materialize vs MUI (React) 🔴
+    - Materialize = classic CSS framework (jQuery)
+    - MUI = React component library (modern)
+  - Status 🔴
+    - Materialize is largely unmaintained (last major release 2018)
+    - For new projects, prefer MUI, Material Web, or Vuetify
+  - When you might still see Materialize
+    - Legacy projects
+    - Simple static sites wanting Material look
+
+---
+🔴 Very Important

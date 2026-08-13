@@ -1,0 +1,45 @@
+Bulma is a free, open-source, modern CSS framework based on Flexbox. Unlike Bootstrap it ships no JavaScript -- only CSS -- which makes it lightweight and framework-agnostic (pair it with React, Vue, or vanilla JS).
+
+- Bulma
+  - Introduction 🔴
+    - What Bulma is (Flexbox-based, CSS-only framework)
+    - No JavaScript included -- you bring your own
+    - Modern, clean default aesthetic
+  - Installation 🔴
+    - CDN: `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma">`
+    - npm: `npm install bulma`
+  - The grid system 🔴
+    - `columns` + `column`
+    - Responsive (`is-mobile`, `is-desktop`, `is-half`)
+    - Built entirely on Flexbox
+  - Components
+    - Navbar, hero, card, media, level
+    - Modal (CSS-only, toggle with `is-active` class)
+    - Dropdown, tabs, pagination
+    - Notification, message
+  - Form controls 🔴
+    - `input`, `textarea`, `select`, `checkbox`, `radio`
+    - `field`, `control`, `label` structure
+  - Elements
+    - Button, box, content, tag, title, subtitle
+  - Layout
+    - Container, level, footer, section, tile
+  - Modifiers 🔴
+    - Color: `is-primary`, `is-danger`, `is-info`
+    - Size: `is-small`, `is-medium`, `is-large`
+    - State: `is-loading`, `is-focused`, `is-hovered`
+  - Customizing Bulma 🔴
+    - Sass variables (import specific `.sass` files)
+    - Customize colors, spacing, typography
+  - Icons
+    - Pairs with Font Awesome, Material Icons
+  - Bulma vs Bootstrap 🔴
+    - Bulma: Flexbox, CSS-only, modern feel
+    - Bootstrap: more components, includes JS, larger
+  - When to use Bulma
+    - You want modern Flexbox layout
+    - You use React/Vue and want to add interactivity yourself
+    - You prefer a cleaner look than Bootstrap's defaults
+
+---
+🔴 Very Important

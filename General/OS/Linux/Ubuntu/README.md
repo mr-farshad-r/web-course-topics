@@ -1,0 +1,33 @@
+Ubuntu is the most popular Linux distribution for desktops and servers. It is Debian-based, beginner-friendly, and the default choice for most cloud providers and tutorials — making it the best first Linux to learn.
+
+- Ubuntu
+  - What is Ubuntu? (Canonical, Debian-based, released every 6 months)
+  - LTS (Long Term Support) vs interim releases 🔴
+  - Installation
+    - Download ISO
+    - Bootable USB (Rufus / BalenaEtcher / `dd`)
+    - Dual boot vs virtual machine (VirtualBox, VMware, Multipass)
+    - WSL / WSL2 on Windows
+  - The desktop (GNOME)
+  - Default software stack
+  - Package management with `apt`
+    - `sudo apt update && sudo apt upgrade`
+    - `sudo apt install <package>`
+    - PPA (Personal Package Archive)
+    - Snap and Flatpak
+  - Services and systemd
+    - `sudo systemctl status <service>`
+    - `sudo systemctl enable --now <service>`
+  - Firewall (UFW — Uncomplicated Firewall)
+    - `sudo ufw allow 80`
+  - Users
+    - `adduser`, `usermod`, groups
+    - `sudo` group
+  - SSH setup
+    - `sudo apt install openssh-server`
+  - Common server tasks
+    - Installing Node.js (NodeSource), Python, Nginx, MySQL, Docker
+  - Logs
+    - `/var/log/`
+    - `journalctl -u <service>`
+  - Upgrade between releases (`do-release-upgrade`)

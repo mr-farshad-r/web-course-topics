@@ -1,0 +1,50 @@
+Next.js is the most popular React framework, created by Vercel. It adds SSR, SSG, file-based routing, API routes, image optimization, and more on top of React -- so you get a production-ready app without wiring up everything yourself.
+
+- Next.js
+  - Introduction 🔴
+    - What Next.js solves (routing, SSR/SSG, code splitting out of the box)
+    - Next.js vs Create React App vs Vite
+  - Installation
+    - `npx create-next-app@latest`
+    - TypeScript / Tailwind / ESLint flags
+  - Project structure
+  - Routing 🔴
+    - Pages Router (`pages/`)
+      - File-system routing
+      - Dynamic routes (`[id].js`)
+      - Catch-all (`[...slug].js`)
+      - `Link` component
+    - App Router (`app/`) 🔴 -- the modern default
+      - Layouts (`layout.tsx`)
+      - Loading / Error UI
+      - Server vs Client Components (`'use client'`)
+  - Data fetching 🔴
+    - `getStaticProps` (SSG)
+    - `getServerSideProps` (SSR)
+    - `getStaticPaths` (dynamic SSG)
+    - App Router: `fetch` with caching/revalidation
+  - Pre-rendering 🔴
+    - Static / Automatic Static Optimization
+    - Incremental Static Regeneration (ISR)
+  - Assets
+    - `next/image` (automatic optimization, lazy loading)
+    - `next/font`
+    - `public/` directory
+  - API Routes (`pages/api` or route handlers)
+  - Styling (CSS Modules, Tailwind, styled-jsx)
+  - SEO
+    - Metadata API
+    - `next/seo`
+    - Sitemap, robots.txt
+  - Middleware
+  - Deploy 🔴
+    - Vercel (zero config)
+    - Self-host (Node server, Docker)
+    - Static export (`next export`)
+  - Advanced
+    - Internationalization (i18n)
+    - React Server Components
+    - Streaming and Suspense
+
+---
+🔴 Very Important

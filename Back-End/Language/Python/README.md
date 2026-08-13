@@ -1,0 +1,66 @@
+Python is a high-level, general-purpose programming language known for its readable syntax and enormous ecosystem. It is the dominant language for data science and machine learning, and is also an excellent choice for back-end web development, scripting, and automation.
+
+- Python
+  - Introduction 🔴
+    - What is Python (interpreted, dynamically typed, batteries-included)
+    - Why developers love it (readable syntax, huge ecosystem)
+    - Python 2 vs Python 3 (2 is dead)
+  - Installation 🔴
+    - python.org installer
+    - macOS: `brew install python`
+    - Linux: preinstalled / `sudo apt install python3`
+    - Version manager: `pyenv`
+  - Package management 🔴
+    - `pip` (`pip install`, `requirements.txt`)
+    - `venv` / `virtualenv` 🔴 (isolated environments)
+      - `python -m venv venv`
+      - `source venv/bin/activate`
+    - Poetry, Pipenv (modern dependency management)
+  - Basics
+    - Indentation-based blocks (no braces) 🔴
+    - Variables and dynamic typing
+    - Data types (str, int, float, bool, list, tuple, dict, set)
+    - f-strings 🔴
+    - Conditionals, loops (`for`, `while`)
+    - Functions, `*args`, `**kwargs`
+    - List/dict comprehensions 🔴
+    - Classes and OOP
+    - Decorators 🔴
+    - Generators
+    - Exception handling (`try/except`)
+  - Standard library highlights
+    - `os`, `sys`, `pathlib`
+    - `json`, `csv`, `datetime`
+    - `re` (regex)
+    - `http`, `urllib`, `requests`
+    - `asyncio` 🔴
+  - File I/O and context managers (`with`)
+  - Virtual environments and reproducible builds
+  - **Frameworks and Libraries** 🔴
+    - [Flask](#) -- minimalist, flexible 🔴
+      - Routing, templates (Jinja2), request/response
+    - [FastAPI](#) 🔴 -- modern, fast, async, auto-docs
+      - Type hints -> validation -> OpenAPI
+      - Async support
+      - Pydantic models
+    - Django -- batteries-included full-stack framework
+  - Databases
+    - `sqlite3` (built-in)
+    - SQLAlchemy (ORM) 🔴
+    - `psycopg` (PostgreSQL), `pymysql` (MySQL)
+  - Testing
+    - `pytest` 🔴
+    - `unittest`
+  - Deployment 🔴
+    - ASGI/WSGI servers: Uvicorn, Gunicorn
+    - Nginx reverse proxy
+    - Docker
+  - PEP 8 style guide 🔴
+  - Type hints and `mypy`
+  - Beyond the web (self-study)
+    - Data science: NumPy, Pandas, Matplotlib
+    - ML/AI: Scikit-learn, PyTorch, TensorFlow
+    - Automation and scripting
+
+---
+🔴 Very Important

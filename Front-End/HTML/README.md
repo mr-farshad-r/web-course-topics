@@ -72,4 +72,7 @@ HTML stands for HyperText Markup Language. It is used on the Front-End and gives
     - data-* 
   - Favicon
   - Accessibility
-  - SEO Technical 
+  - SEO Technical
+
+---
+🔴 Very Important

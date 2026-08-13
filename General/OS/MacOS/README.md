@@ -1,0 +1,35 @@
+macOS is Apple's Unix-based desktop operating system. Because it ships with a real terminal, Bash/Zsh, and a POSIX environment out of the box, it is the most popular OS among professional web developers — and shares many concepts with Linux.
+
+- macOS
+  - History (Darwin / BSD Unix lineage)
+  - Versions (codenames: Monterey, Ventura, Sonoma, Sequoia, …)
+  - Terminal and default shell (Zsh since Catalina)
+  - File system (APFS)
+  - Home directory (`/Users/<name>`)
+  - Homebrew 🍺 — the missing package manager 🔴
+    - Installation
+    - `brew install`, `brew search`, `brew update`
+    - Casks for GUI apps
+  - Development tools
+    - Xcode Command Line Tools (`xcode-select --install`)
+    - Git, Node.js, Python, Ruby preinstalled or via Homebrew
+  - System preferences / Settings app
+  - Key tools
+    - Activity Monitor
+    - Keychain Access
+    - Disk Utility
+  - Differences from Linux 🔴
+    - BSD vs GNU utilities (different flags: `sed`, `grep`, `cp`)
+    - Case-insensitive filesystem by default
+    - No `systemd` — uses `launchd`
+    - No `apt` — uses Homebrew
+  - App management (`.app` bundles, DMG, App Store)
+  - Spotlight search and `mdfind`
+  - macOS-specific developer features
+    - Homebrew services (`brew services`)
+    - `launchd` and LaunchAgents (`~/Library/LaunchAgents`)
+  - iOS simulator (requires Xcode)
+  - Tips and shortcuts
+    - Spotlight, Spotlight calculator
+    - Mission Control, Spaces
+    - Screenshots (`Cmd+Shift+3/4/5`)

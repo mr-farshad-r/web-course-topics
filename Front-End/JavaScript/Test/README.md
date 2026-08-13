@@ -1,0 +1,44 @@
+Testing is the practice of verifying that your code works as intended -- before users see it. A robust test suite lets you refactor with confidence, catch regressions, and document expected behavior. Professional teams test; hobbyists debug in production.
+
+- JavaScript Testing
+  - Why test? 🔴
+    - Catch bugs before they reach users
+    - Enable fearless refactoring
+    - Document expected behavior
+    - Speed up development (faster feedback than manual testing)
+  - Testing pyramid 🔴
+    - Unit tests (many, fast, isolated)
+    - Integration tests (fewer, real dependencies)
+    - End-to-End (E2E) tests (fewest, slow, full user flow)
+  - Test types 🔴
+    - Unit -- single function or component
+    - Integration -- multiple units together
+    - E2E -- full application via browser
+    - Snapshot -- capture and compare output
+    - Smoke -- does it load at all?
+  - Concepts 🔴
+    - AAA pattern: Arrange, Act, Assert
+    - Assertions (`expect(x).toBe(y)`)
+    - Mocks, stubs, spies 🔴
+    - Fixtures and factories
+    - Code coverage 🔴
+  - [Jest](./Jest/README.md) 🔴 -- unit & integration (React standard)
+  - [Cypress](./Cypress/README.md) 🔴 -- E2E and component testing
+  - Other notable tools
+    - Vitest (Vite-native, Jest-compatible) 🔴
+    - Playwright (modern E2E, cross-browser)
+    - Testing Library (`@testing-library/react`) 🔴
+    - Mocha + Chai (classic combo)
+    - Karma, Jasmine (Angular)
+  - Test-Driven Development (TDD) 🔴
+    - Red -> Green -> Refactor
+  - What to test (and what NOT to test) 🔴
+    - Test behavior, not implementation
+    - Don't test third-party libraries
+    - Don't snapshot everything
+  - CI integration 🔴
+    - Run tests on every PR
+    - Block merges on failing tests
+
+---
+🔴 Very Important

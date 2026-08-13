@@ -1,0 +1,47 @@
+iOS is Apple's mobile operating system. Native iOS apps are built with Swift (or Objective-C) using Apple's frameworks, and can only be developed on a Mac using Xcode.
+
+- iOS Native Development
+  - Introduction 🔴
+    - What iOS is (iPhone, iPad)
+    - Apple's ecosystem (closed, curated)
+  - Prerequisites 🔴
+    - **A Mac is required** (Xcode only runs on macOS)
+    - Apple Developer account ($99/year to publish)
+  - Languages 🔴
+    - **Swift** (modern, recommended)
+    - Objective-C (legacy, still supported)
+  - IDE: **Xcode** 🔴
+    - Storyboards / SwiftUI Canvas
+    - Simulator
+    - Instruments (profiling)
+  - UI Frameworks
+    - **SwiftUI** 🔴 (modern, declarative -- like React)
+    - **UIKit** (classic, imperative -- Storyboards)
+  - Key concepts
+    - App lifecycle (`@main`, `App` protocol)
+    - `View` and `ViewBuilder`
+    - Navigation (NavigationStack, TabView)
+    - State management (`@State`, `@Binding`, `@EnvironmentObject`)
+    - Property Wrappers 🔴
+  - Networking
+    - `URLSession`
+    - Codable (JSON parsing) 🔴
+  - Data persistence
+    - UserDefaults (small key-value)
+    - CoreData / SwiftData (databases)
+    - File system
+    - Keychain (secrets) 🔴
+  - Common APIs
+    - Push notifications (APNs)
+    - Camera, photo library
+    - Location (Core Location)
+    - Authentication (Sign in with Apple)
+  - Publishing to the App Store 🔴
+    - App Store Connect
+    - TestFlight (beta testing)
+    - App Review guidelines
+    - Provisioning profiles and certificates
+  - Human Interface Guidelines (HIG) 🔴
+
+---
+🔴 Very Important

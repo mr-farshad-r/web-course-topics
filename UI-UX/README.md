@@ -1,0 +1,76 @@
+UI (User Interface) and UX (User Experience) design are disciplines that determine how an application looks and how it feels to use. A developer who understands UI/UX builds products people actually enjoy using -- not just code that works.
+
+- UI / UX
+  - Introduction 🔴
+    - **UI (User Interface)** -- how it looks (colors, typography, layout, components)
+    - **UX (User Experience)** -- how it works and feels (flow, usability, logic)
+    - UI ≠ UX, but they overlap constantly
+    - Good design is invisible; bad design is frustrating
+  - UX Design (User Experience) 🔴
+    - User research (who are your users?)
+    - User journeys and flows
+    - Wireframing (low-fidelity layouts)
+    - Prototyping (interactive mockups)
+    - Usability testing
+    - Accessibility 🔴 (design for everyone, including disabilities)
+  - UI Design (User Interface) 🔴
+    - Visual hierarchy (what draws the eye first)
+    - Typography 🔴
+      - Font pairing, scale, line-height, readability
+    - Color theory 🔴
+      - Color wheel, complementary, analogous
+      - 60-30-10 rule
+      - Contrast (WCAG accessibility standards)
+    - Spacing and alignment (grid, padding, consistency)
+    - Consistency (reuse patterns, components)
+    - Iconography and imagery
+  - Design principles 🔴
+    - Hierarchy (size, color, position -> importance)
+    - Contrast (make important things stand out)
+    - Repetition (consistency builds trust)
+    - Alignment (nothing random, everything connected)
+    - Proximity (related items group together)
+  - Design systems and component libraries 🔴
+    - Material Design (Google)
+    - Human Interface Guidelines (Apple)
+    - Fluent (Microsoft)
+    - Custom design systems (Storybook + Figma)
+  - Tools 🔴
+    - **Figma** 🔴 (industry standard, collaborative)
+    - Adobe XD
+    - Sketch (macOS)
+    - Framer (interactive prototypes)
+    - Penpot (open source)
+  - Design-to-code workflow 🔴
+    - Figma -> inspect -> CSS values
+    - Design tokens (colors, spacing as variables)
+    - Storybook (component playground)
+  - Responsive design 🔴
+    - Mobile-first approach
+    - Breakpoints (Bootstrap/Tailwind standards)
+    - Touch targets (min 44x44 px)
+  - Accessibility (a11y) 🔴
+    - WCAG guidelines
+    - Semantic HTML
+    - ARIA attributes
+    - Keyboard navigation
+    - Screen reader testing
+    - Color contrast (4.5:1 for normal text)
+  - Common UI patterns
+    - Cards, modals, drawers, tabs, accordions
+    - Empty states, loading states, error states 🔴
+    - Toasts and notifications
+    - Forms (inline validation, clear labels)
+  - UX laws (heuristics) 🔴
+    - Fitts's Law (larger targets are faster to hit)
+    - Hick's Law (more choices = slower decisions)
+    - Jakob's Law (users expect your site to work like others)
+    - Miller's Law (7±2 items in working memory)
+  - Resources
+    - Refactoring UI (book)
+    - Don't Make Me Think (book)
+    - Dribbble, Behance (inspiration)
+    - Material Design docs, Apple HIG
+
+---
+🔴 Very Important

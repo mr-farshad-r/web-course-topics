@@ -1,0 +1,56 @@
+Back-End development is everything that happens on the server -- the APIs, databases, authentication, and business logic that power the front-end. A back-end developer must understand HTTP, databases, security, and at least one server-side language and framework.
+
+- Back-End
+  - Prerequisites 🔴
+    - [Basic Front-End Knowledge](./../Front-End/README.md)
+      - HTML
+      - CSS
+      - JavaScript
+    - [OS and General Knowledge](./../General/README.md)
+      - [Terminal usage](./../General/Terminal/README.md)
+      - Process management
+      - Threads and Concurrency
+      - Memory management
+    - I/O Management
+    - Request and Response (HTTP lifecycle)
+    - [SSH](./../General/SSH/README.md)
+    - Basic networking concepts 🔴
+      - TCP/IP, DNS, ports
+      - HTTP methods, status codes, headers
+  - [Choose a backend language](./Language/README.md) 🔴
+  - [Learn databases](./Database/README.md) 🔴
+    - SQL based
+    - NoSQL based
+    - Key / Value store
+  - [Web Security Knowledge](./../WebSecurity/README.md)
+  - Caching
+  - API 🔴
+    - REST 🔴
+    - GraphQL
+    - gRPC / protobuf
+    - WebSocket / SSE (realtime)
+  - Architectural patterns 🔴
+    - Monolith
+    - Microservices
+    - Serverless
+    - MVC, MVVM
+  - Message Brokers and Realtime Protocols
+    - RabbitMQ, Kafka, Redis Pub/Sub
+  - Containerization and Virtualization
+    - [Docker](./../DevOps/Docker/README.md)
+  - [Web Servers](./WebServers/README.md) 🔴
+    - [Nginx](./WebServers/Nginx/README.md)
+    - [Apache](./WebServers/Apache/README.md)
+  - Authentication & Authorization 🔴
+    - Session-based
+    - Token-based (JWT)
+    - OAuth 2.0
+    - SSO
+  - Testing 🔴
+    - Unit, Integration, E2E
+  - API documentation
+    - Swagger / OpenAPI
+    - Postman
+
+---
+🔴 Very Important

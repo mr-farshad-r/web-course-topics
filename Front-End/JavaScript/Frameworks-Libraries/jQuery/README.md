@@ -1,13 +1,52 @@
+jQuery is a fast, small, and feature-rich JavaScript library that simplifies HTML DOM manipulation, event handling, animations, and AJAX. Created by John Resig in 2006, it was once the dominant front-end tool -- and while modern frameworks (React, Vue) have largely replaced it for new projects, jQuery still runs on over 75% of the top 10 million websites (WordPress, legacy codebases, Bootstrap 4).
+
 - jQuery
-  - Introduction
-  - Syntax 
-  - DOM Node vs jQuery Object
-  - Selectors
-    - CSS Selectors
-    - jQuery Selectors
-  - DOM Manipulation
+  - Introduction 🔴
+    - What jQuery is (DOM manipulation library, "write less, do more")
+    - History (2006, once ubiquitous)
+    - Why it declined (modern browsers + React/Vue do what jQuery did natively)
+  - Syntax 🔴
+    - `$()` selector and chaining
+    - `$(document).ready(function() { ... })`
+  - DOM Node vs jQuery Object 🔴
+    - `document.getElementById()` vs `$('#id')`
+    - `this` (DOM node) vs `$(this)` (jQuery object)
+    - Converting between them
+  - Selectors 🔴
+    - CSS Selectors (`$('#id'), $('.class'), $('tag')`)
+    - jQuery-specific selectors (`:first`, `:visible`, `:animated`)
+    - Attribute selectors (`$('[type="text"]')`)
+  - DOM Manipulation 🔴
+    - `.text()`, `.html()`, `.val()`
+    - `.attr()`, `.prop()`, `.data()`
+    - `.append()`, `.prepend()`, `.after()`, `.before()`
+    - `.addClass()`, `.removeClass()`, `.toggleClass()`
+    - `.css()`
   - Dimensions Manipulation
-  - Events
+    - `.width()`, `.height()`
+    - `.innerWidth()`, `.innerHeight()`
+    - `.outerWidth()`, `.outerHeight()`
+  - Events 🔴
+    - `.on()`, `.click()`, `.submit()`, `.change()`
+    - Event delegation (`$(parent).on('click', child, fn)`)
+    - `.preventDefault()`
   - Effects and Animations
-  - Ajax
-  - Built-in Methods 
+    - `.show()`, `.hide()`, `.toggle()`
+    - `.fadeIn()`, `.fadeOut()`, `.fadeToggle()`
+    - `.slideUp()`, `.slideDown()`, `.slideToggle()`
+    - `.animate()`
+  - AJAX 🔴
+    - `$.ajax()`, `$.get()`, `$.post()`
+    - `$.getJSON()`
+    - Handling success, error, promises
+  - Built-in Methods
+    - `.each()`, `.map()`
+    - `.find()`, `.parent()`, `.siblings()`, `.children()`
+    - `.eq()`, `.first()`, `.last()`
+  - jQuery today 🔴
+    - Still relevant: WordPress, legacy code, Bootstrap 4
+    - Not recommended for new SPAs (use React/Vue/Svelte instead)
+    - Useful skill: many jobs still maintain jQuery codebases
+
+---
+🔴 Very Important

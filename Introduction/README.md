@@ -1,37 +1,41 @@
-### Introduction of  Web, Internet, Programming languages
+This section answers the most important questions for someone starting out: What is the web? How does the internet work? What is programming? Which path should I take -- front-end, back-end, mobile? Think of it as your orientation before diving into specific technologies.
 
-- Intro
-- Interest or Income?
-- Roadmap
-- What's internet? What's web?
-  - Network
-  - IP
-  - Protocols
-    - HTTP
-    - FTP
-    - SMTP
-    - WS
-    - MQTT
-    - ...
-- Client/Server architecture
-- [Back-End](./../Back-End/README.md) 
-- [Front-End](./../Front-End/README.md)
-- [DevOPS](./../DevOps/README.md)
-- [UI/UX](./../UI-UX/README.md)
-- Environment
-  - Local
-  - Production
-- Addressing 
+- Introduction of Web, Internet, Programming Languages
+  - Intro
+  - Interest or Income?
+  - Roadmap 🔴
+  - What's internet? What's web? 🔴
+    - Network
+    - IP
+    - Protocols
+      - HTTP
+      - FTP
+      - SMTP
+      - WS
+      - MQTT
+      - ...
+  - Client/Server architecture 🔴
+    - [Back-End](./../Back-End/README.md)
+    - [Front-End](./../Front-End/README.md)
+    - [DevOPS](./../DevOps/README.md)
+    - [UI/UX](./../UI-UX/README.md)
+  - Environment
+    - Local
+    - Production
+  - Addressing
     - Relative
     - Absolute
-- URL anatomy
-- Deployment
-  - Host
-  - Domain
-- Domain Name System (DNS)
-- Interpreter vs Compiler
-- Terminal
-- Case sensitivity
-- Tools
+  - URL anatomy 🔴
+  - Deployment
+    - Host
+    - Domain
+  - Domain Name System (DNS) 🔴
+  - Interpreter vs Compiler 🔴
+  - Terminal
+  - Case sensitivity
+  - Tools
     - View (Browsers)
     - Write (Plain text)
+
+---
+🔴 Very Important

@@ -1,0 +1,94 @@
+The terminal (a.k.a. console, shell, command line) is a text-based interface for interacting with the operating system. A senior developer lives in the terminal — it is faster, scriptable, and essential for servers, Git, build tools, and automation.
+
+- Terminal
+  - GUI vs CLI
+  - Shells
+    - Bash
+    - Zsh
+    - PowerShell
+    - Fish
+  - Prompt and commands
+  - Command structure (command + flags/options + arguments)
+  - Navigation
+    - `pwd` (print working directory)
+    - `cd` (change directory)
+      - `cd ..` (parent)
+      - `cd ~` or `cd` (home)
+      - `cd -` (previous)
+      - Relative vs absolute paths
+    - `ls` / `dir` (list directory)
+      - Flags: `-l`, `-a`, `-h`
+  - File and directory manipulation
+    - `mkdir` (create directory)
+    - `touch` (create empty file)
+    - `cp` (copy)
+    - `mv` (move / rename)
+    - `rm` (remove)
+      - `-r` (recursive)
+      - `-f` (force)
+    - `ln` (symbolic / hard link)
+  - Reading files
+    - `cat`
+    - `less` / `more`
+    - `head` / `tail`
+      - `tail -f` (follow)
+  - Searching 🔴
+    - `grep` / `rg`
+    - `find`
+    - `locate`
+  - Text processing
+    - `sed` (stream editor)
+    - `awk`
+    - `sort`, `uniq`, `cut`, `tr`, `wc`
+  - Redirection and pipes 🔴
+    - Standard streams: `stdin`, `stdout`, `stderr`
+    - `>` (overwrite), `>>` (append)
+    - `2>` (error redirect)
+    - `|` (pipe — chain commands)
+  - Permissions 🔴
+    - `chmod` (read/write/execute, octal `755`)
+    - `chown` (ownership)
+    - `chgrp`
+    - `umask`
+  - Processes
+    - `ps`
+    - `top` / `htop`
+    - `kill`, `killall`
+    - `&` (background)
+    - `jobs`, `fg`, `bg`
+    - `nohup`
+  - Environment
+    - Environment variables (`export`, `env`, `printenv`)
+    - `PATH`
+    - Shell config files (`.bashrc`, `.zshrc`, `.bash_profile`)
+  - Networking utilities
+    - `ping`
+    - `curl`
+    - `wget`
+    - `ssh`, `scp`
+    - `netstat`, `ss`
+    - `lsof`
+  - Package management (OS-level)
+    - `apt` (Debian/Ubuntu)
+    - `brew` (macOS)
+    - `yum` / `dnf` (RHEL)
+  - Archiving and compression
+    - `tar`
+    - `zip` / `unzip`
+    - `gzip`
+  - Shell scripting
+    - Shebang `#!/bin/bash`
+    - Variables
+    - Arguments (`$1`, `$@`, `$#`)
+    - Conditionals (`if`, `case`)
+    - Loops (`for`, `while`)
+    - Functions
+    - Exit codes (`$?`)
+  - Productivity
+    - Shortcuts (Ctrl+R history search, Ctrl+C, Ctrl+Z, Ctrl+L)
+    - Aliases
+    - Terminal multiplexers: `tmux`, `screen`
+    - Modern tools: `bat`, `eza`, `fzf`, `ripgrep`, `zoxide`
+
+---
+🔴 Very Important

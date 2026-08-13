@@ -1,0 +1,42 @@
+Windows is Microsoft's desktop OS and the most common developer machine in many regions. While less Unix-native than macOS/Linux, modern Windows offers WSL, PowerShell, and strong tooling, making it a capable development environment.
+
+- Windows
+  - History and versions (10, 11, Server)
+  - File system (NTFS, drive letters `C:\`)
+  - Path separators (`\` vs `/`) and case-insensitivity 🔴
+  - Command-line environments
+    - CMD (Command Prompt)
+    - PowerShell 🔴
+      - Cmdlets (`Get-ChildItem`, `Set-Location`)
+      - Pipelines
+      - Execution policies
+    - Windows Terminal (recommended)
+  - **WSL / WSL2** 🔴 (Windows Subsystem for Linux)
+    - Install a real Linux (Ubuntu, Debian, …) inside Windows
+    - File access between Windows ↔ Linux (`\\wsl$`)
+    - VS Code Remote-WSL
+  - Package managers
+    - Winget
+    - Chocolatey
+    - Scoop
+  - Development tools
+    - Visual Studio and VS Code
+    - Git for Windows (Git Bash)
+    - Node.js, Python (via official installers or Scoop/Choco)
+  - Environment variables (`System Properties → Environment Variables`)
+  - Services and Task Manager
+    - `services.msc`
+    - Task Scheduler
+  - Networking
+    - `ipconfig`
+    - `netstat -ano`
+    - Firewall settings
+  - Registry 🔴
+  - Common pain points for web devs
+    - Line endings (CRLF vs LF — configure Git `core.autocrlf`)
+    - File path length limits
+    - Permissions and ownership differ from Unix
+  - Tips
+    - Windows Terminal + WSL = best dev experience
+    - Powertoys
+    - Docker Desktop uses WSL2 backend

@@ -1,0 +1,50 @@
+Linux is the dominant OS for servers, containers, and cloud infrastructure. As a web developer you will deploy to Linux, debug on Linux, and read Linux logs — fluency in it is non-negotiable.
+
+- Linux
+  - History and philosophy (Unix lineage, GNU, open source)
+  - Distributions (distros)
+    - Debian family
+      - [Ubuntu](./Ubuntu/README.md)
+      - Debian
+      - Linux Mint
+    - RHEL family
+      - Fedora
+      - CentOS / Rocky / AlmaLinux
+    - Arch family
+      - Arch
+      - Manjaro
+    - Others: openSUSE, Alpine (containers), Kali (security)
+    - [Raspberry Pi OS / Raspbian](./Rasbian/README.md)
+  - Kernel vs userland
+  - Filesystem Hierarchy Standard 🔴
+    - `/` (root)
+    - `/bin`, `/sbin` (binaries)
+    - `/etc` (configuration)
+    - `/home` (user data)
+    - `/var` (logs, variable data)
+    - `/tmp` (temporary)
+    - `/usr`, `/opt`
+    - `/dev` (devices)
+    - `/proc`, `/sys` (virtual filesystems)
+  - Users and groups 🔴
+    - `root` and `sudo`
+    - `useradd`, `usermod`, `passwd`
+    - File ownership (`chown`) and permissions (`chmod`)
+  - Process management
+    - Signals (`SIGTERM`, `SIGKILL`, `SIGHUP`)
+    - Daemons and services
+    - systemd (`systemctl`, `journalctl`)
+  - Package managers
+    - `apt` / `apt-get`
+    - `dpkg`
+    - `rpm`, `yum`, `dnf`
+  - Networking
+    - Network interfaces (`ip`, `ifconfig`)
+    - Firewall (`ufw`, `iptables`, `firewalld`)
+    - `/etc/hosts`, `/etc/resolv.conf`
+  - Shell (Bash by default)
+  - Desktop environments (GNOME, KDE, XFCE) — optional for servers
+  - SSH server (`sshd`) and remote administration 🔴
+
+---
+🔴 Very Important

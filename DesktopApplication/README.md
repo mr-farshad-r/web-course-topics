@@ -1,0 +1,41 @@
+Desktop application development is the practice of building software that runs natively on Windows, macOS, and Linux desktops. Modern cross-platform desktop apps are most often built with web technologies (HTML/CSS/JS) wrapped in a native shell.
+
+- Desktop Application
+  - Why build desktop apps? 🔴
+    - Offline capability
+    - OS-level access (file system, hardware, tray, notifications)
+    - Better performance than browser tabs for heavy tools
+    - Distribution outside the browser
+  - Approaches 🔴
+    - **Native** (platform-specific)
+      - Windows: WPF, WinForms, UWP, WinUI (C# / C++)
+      - macOS: AppKit, SwiftUI (Swift)
+      - Linux: GTK, Qt (C/C++/Rust)
+    - **Cross-Platform** (one codebase, all OSes)
+      - [Electron](./CrossPlatform/Electron/README.md) 🔴 (web tech)
+      - Tauri (Rust + web frontend, lighter than Electron)
+      - Flutter Desktop (Dart)
+      - Qt (C++/Python)
+      - .NET MAUI (C#)
+  - [Cross-Platform](./CrossPlatform/README.md) 🔴
+    - [Electron](./CrossPlatform/Electron/README.md)
+  - When to choose desktop vs web 🔴
+    - Need deep OS integration (file system, drivers) -> Desktop
+    - Need wide reach and easy updates -> Web
+    - Need both -> PWA or Electron
+  - Distribution 🔴
+    - Windows: MSI / EXE installer, Microsoft Store, code signing
+    - macOS: `.dmg` / `.app`, Mac App Store, notarization 🔴
+    - Linux: `.deb`, `.rpm`, AppImage, Snap, Flatpak
+  - Auto-update 🔴
+    - Electron: `electron-updater`
+    - Tauri: built-in updater
+  - Common features
+    - System tray icon
+    - Global keyboard shortcuts
+    - Native menus and dialogs
+    - Clipboard access
+    - Deep linking (custom URL schemes)
+
+---
+🔴 Very Important

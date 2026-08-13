@@ -1,8 +1,71 @@
-### Node Package Manager (NPM)
+npm (Node Package Manager) is the default package manager for Node.js and the largest software registry in the world, with over 2 million packages. It installs, manages, and versions the third-party code your project depends on -- and every Node.js developer uses it daily.
 
-- Introduction 
-- Installation
-- Init
-- Dependencies
-- DevDependencies
-- Npm Scripts
+- Node Package Manager (NPM)
+  - Introduction 🔴
+    - What npm is (package manager + registry for JavaScript)
+    - npm vs npx (installer vs executor)
+    - npm comes bundled with Node.js
+  - Installation 🔴
+    - Installed automatically with Node.js
+    - Update npm: `npm install -g npm@latest`
+    - Check version: `npm --version`
+  - Init 🔴
+    - `npm init` (interactive)
+    - `npm init -y` (defaults, no prompts)
+    - `package.json` -- the manifest file
+      - `name`, `version`, `description`, `main`
+      - `scripts`, `dependencies`, `devDependencies`
+      - `engines`, `license`, `author`
+  - Installing packages 🔴
+    - `npm install <package>` (local dependency)
+    - `npm install -D <package>` (devDependency)
+    - `npm install -g <package>` (global)
+    - `npm install` (install everything from `package.json`)
+    - `--save` is default (no longer needed since npm 5)
+  - Dependencies 🔴
+    - `dependencies` -- needed in production
+    - `devDependencies` -- only for development (test runners, linters, build tools)
+    - `peerDependencies` -- expected to be provided by the host project
+    - `optionalDependencies` -- installed if available, no error if not
+  - Versioning 🔴
+    - SemVer: `MAJOR.MINOR.PATCH`
+    - `^` (caret): compatible with latest MINOR/PATCH
+    - `~` (tilde): only PATCH updates
+    - Exact pin: `1.2.3`
+    - `npm outdated` -- check for updates
+    - `npm update <package>`
+  - `package-lock.json` 🔴
+    - Locks exact dependency tree
+    - Must be committed to version control
+    - Ensures reproducible installs across machines
+  - `node_modules/` 🔴
+    - Where installed packages live
+    - Never commit to git (add to `.gitignore`)
+    - Can be safely deleted and recreated with `npm install`
+  - npm Scripts 🔴
+    - [NPM Scripts](./../../Front-End/JavaScript/BuildTools-TaskRunner/NpmScrips/README.md)
+    - `npm run <script>`
+    - `npm start`, `npm test` (shortcuts)
+  - Uninstalling and managing
+    - `npm uninstall <package>`
+    - `npm ls` / `npm ls --depth=0` (list installed)
+    - `npm cache clean --force`
+  - Publishing packages
+    - `npm login` / `npm publish`
+    - `npm version patch|minor|major`
+    - Scoped packages (`@myorg/package`)
+  - Security 🔴
+    - `npm audit` -- check for vulnerabilities
+    - `npm audit fix`
+    - Dependabot / Renovate (automated PRs)
+  - npm vs Yarn vs pnpm 🔴
+    - npm: default, bundled with Node, universal
+    - Yarn: alternative, PnP, workspaces
+    - pnpm: fast, disk-efficient (symlink-based)
+  - Common tips
+    - `npx` -- run a package without installing globally
+    - `npm ci` -- clean install (faster, for CI/CD)
+    - `.npmrc` -- npm configuration file
+
+---
+🔴 Very Important

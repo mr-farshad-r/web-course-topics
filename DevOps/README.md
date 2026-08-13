@@ -1,0 +1,51 @@
+DevOps (Development + Operations) is the practice of combining software development and IT operations to shorten the development lifecycle, increase deployment frequency, and deliver reliable software continuously. For a web developer, DevOps means Docker, CI/CD, monitoring, and automation.
+
+- DevOps
+  - Introduction 🔴
+    - What DevOps is (culture + tools + practices)
+    - Why it exists (bridge dev vs ops conflict)
+    - Goals: ship faster, with fewer failures
+  - Core practices 🔴
+    - Continuous Integration (CI)
+    - Continuous Delivery / Deployment (CD)
+    - Infrastructure as Code (IaC)
+    - Monitoring and observability
+    - Automated testing
+    - Containerization
+  - [Docker](./Docker/README.md) 🔴 -- the cornerstone of modern DevOps
+  - CI/CD pipelines 🔴
+    - GitLab CI / CD (`.gitlab-ci.yml`)
+    - GitHub Actions (`.github/workflows/`)
+    - Jenkins, CircleCI, Drone
+    - Pipeline stages: lint -> test -> build -> deploy
+  - Infrastructure as Code (IaC) 🔴
+    - Terraform (multi-cloud)
+    - Ansible (configuration management)
+    - Pulumi (IaC in real languages)
+  - Container orchestration 🔴
+    - Docker Compose (single host)
+    - Kubernetes (multi-host, production)
+    - Docker Swarm (simpler alternative)
+  - Cloud providers 🔴
+    - AWS, Google Cloud, Azure
+    - DigitalOcean, Hetzner (simpler, cheaper)
+  - Monitoring and observability 🔴
+    - Prometheus + Grafana (metrics)
+    - ELK / Loki (logs)
+    - Jaeger (tracing)
+    - Uptime monitoring (UptimeRobot)
+    - Error tracking (Sentry) 🔴
+  - Secrets management 🔴
+    - Vault, AWS Secrets Manager, Doppler
+    - Never hardcode secrets in code or images
+  - Deployment strategies 🔴
+    - See [Deployment](./../Deployment/README.md)
+  - DevOps for a small team / solo developer 🔴
+    - Start with: Git + Docker + GitHub Actions + a PaaS
+    - Don't adopt Kubernetes prematurely
+  - GitOps 🔴
+    - Git as the single source of truth for infrastructure
+    - ArgoCD, Flux
+
+---
+🔴 Very Important

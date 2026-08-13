@@ -1,0 +1,69 @@
+Data Structures and Algorithms (DSA) are the backbone of computer science and technical interviews. A solid grasp of them lets you choose the right tool for storing and processing data, write efficient code, and reason about performance — skills that matter far beyond whiteboard interviews.
+
+- Data Structures and Algorithms
+  - Why DSA matters (performance, scalability, interviews)
+  - Complexity analysis 🔴
+    - Big-O notation
+    - Time complexity
+    - Space complexity
+    - Best / Average / Worst case
+    - Common complexities: `O(1)`, `O(log n)`, `O(n)`, `O(n log n)`, `O(n²)`, `O(2ⁿ)`
+  - **Data Structures**
+    - Array 🔴
+    - Linked List (Singly, Doubly)
+    - Stack (LIFO)
+    - Queue (FIFO)
+    - Hash Table / Hash Map 🔴
+    - Tree
+      - Binary Tree
+      - Binary Search Tree (BST)
+      - AVL Tree, Red-Black Tree (self-balancing)
+      - Trie (prefix tree)
+      - Heap / Priority Queue
+    - Graph (directed, undirected, weighted)
+    - Set
+    - Disjoint Set (Union-Find)
+  - **Algorithms**
+    - Searching 🔴
+      - Linear Search — O(n)
+      - Binary Search — O(log n)
+    - Sorting 🔴
+      - Bubble Sort
+      - Selection Sort
+      - Insertion Sort
+      - Merge Sort — O(n log n)
+      - Quick Sort — O(n log n) avg
+      - Heap Sort
+      - When to use which
+    - Recursion 🔴
+      - Base case + recursive case
+      - Call stack and stack overflow
+      - Tail recursion
+    - Divide and Conquer
+    - Greedy
+    - Dynamic Programming 🔴
+      - Memoization (top-down)
+      - Tabulation (bottom-up)
+    - Backtracking
+    - Graph algorithms
+      - BFS (Breadth-First Search)
+      - DFS (Depth-First Search)
+      - Dijkstra (shortest path)
+      - A*
+  - Problem-solving patterns (interview toolbox)
+    - Frequency counter
+    - Multiple pointers
+    - Sliding window
+    - Two pointers
+    - Fast & slow pointers
+    - Merge intervals
+  - Where you meet DSA in web development
+    - Arrays and objects in JavaScript
+    - Set and Map
+    - DOM tree, component tree
+    - Debounce/throttle, caching, memoization
+  - Practice platforms
+    - LeetCode, HackerRank, Codewars, Exercism
+
+---
+🔴 Very Important

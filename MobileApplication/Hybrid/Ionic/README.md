@@ -1,0 +1,45 @@
+Ionic is a popular hybrid mobile framework that combines a library of UI components with web technologies (Angular, React, or Vue) and the Capacitor (or Cordova) runtime to build installable mobile apps from a single codebase.
+
+- Ionic
+  - Introduction 🔴
+    - What Ionic is (UI toolkit + native runtime for hybrid apps)
+    - Built on web standards (HTML/CSS/JS)
+    - Framework-agnostic: Angular, React, Vue, or vanilla
+  - Architecture 🔴
+    - UI: Ionic components (buttons, lists, modals)
+    - Framework: Angular / React / Vue (your choice)
+    - Native runtime: **Capacitor** (modern) or Cordova (legacy)
+  - Installation 🔴
+    - `npm install -g @ionic/cli`
+    - `ionic start myApp tabs --react` (or `--angular`, `--vue`)
+  - Ionic UI Components
+    - IonButton, IonList, IonItem, IonCard
+    - IonModal, IonToast, IonLoading
+    - Navigation (IonRouter / IonTabs)
+    - Gestures and animations
+  - Theming 🔴
+    - CSS variables for colors, dark mode
+    - Platform-aware styling (iOS vs Android modes)
+  - Native functionality (via Capacitor) 🔴
+    - Camera, Geolocation, Push Notifications, Filesystem
+    - `@capacitor/camera`, `@capacitor/geolocation`
+    - Plugins for features not in core
+  - Building and deploying 🔴
+    - `ionic build`
+    - `npx cap add ios` / `npx cap add android`
+    - `npx cap open ios` (opens Xcode) / `android` (opens Android Studio)
+    - Submit to App Store / Google Play
+  - Ionic vs React Native vs Flutter 🔴
+    - Ionic: web tech in WebView, easiest for web devs
+    - React Native: JS -> real native UI components
+    - Flutter: Dart -> custom rendering engine
+  - Ionicons (included icon set)
+  - Appflow (Ionic's managed CI/CD + live updates -- paid)
+  - When to use Ionic 🔴
+    - Web-first team building a mobile companion app
+    - Content / form-heavy apps
+    - Need to reuse an existing web codebase
+    - Want one team for web + mobile
+
+---
+🔴 Very Important

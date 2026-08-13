@@ -1,0 +1,59 @@
+Redis (Remote Dictionary Server) is an in-memory key-value data store. Because it keeps data in RAM, it is blazingly fast and is the de-facto standard for caching, session storage, rate limiting, and real-time features.
+
+- Redis
+  - Introduction 🔴
+    - What is Redis (in-memory key-value store)
+    - Use cases: cache, sessions, queues, pub/sub, leaderboards
+    - RAM-based -> sub-millisecond latency
+  - Installation 🔴
+    - Linux: `sudo apt install redis-server`
+    - macOS: `brew install redis`
+    - Docker: `docker run -d -p 6379:6379 redis`
+  - Connecting
+    - `redis-cli`
+    - Host/port/password
+  - Persistence 🔴
+    - RDB (point-in-time snapshots)
+    - AOF (append-only log)
+    - Why persistence matters for an in-memory DB
+  - Data types 🔴
+    - Strings
+    - Lists
+    - Sets
+    - Hashes (field-value maps)
+    - Sorted Sets 🔴 (leaderboards, rankings)
+    - Streams
+    - Bitmaps, HyperLogLog
+  - Using basic queries 🔴
+    - String: `SET`, `GET`, `DEL`, `INCR`, `DECR`, `EXPIRE`
+    - Key expiration: `EX`, `TTL`, `PERSIST`
+    - Hash: `HSET`, `HGET`, `HGETALL`
+    - List: `LPUSH`, `RPUSH`, `LRANGE`, `LPOP`
+    - Set: `SADD`, `SMEMBERS`, `SISMEMBER`
+    - Sorted Set: `ZADD`, `ZRANGE`, `ZRANGEBYSCORE`
+  - Pub/Sub 🔴
+    - `SUBSCRIBE`, `PUBLISH`
+  - Transactions (`MULTI`, `EXEC`, `DISCARD`)
+  - Common patterns 🔴
+    - Caching (cache-aside / read-through)
+    - Session store
+    - Rate limiting
+    - Distributed locks (`SETNX`)
+    - Message queue (with Lists or Streams)
+  - Expiration and eviction policies 🔴
+    - `maxmemory` + policy (`allkeys-lru`, `volatile-lru`, `noeviction`)
+  - Security
+    - `requirepass` / ACL
+    - TLS
+  - Clustering 🔴
+    - Redis Sentinel (high availability)
+    - Redis Cluster (sharding)
+  - Client libraries
+    - Node.js: `ioredis`, `node-redis`
+    - Python: `redis-py`
+    - PHP: `predis`, `phpredis`
+  - GUI tools
+    - RedisInsight, Another Redis Desktop Manager
+
+---
+🔴 Very Important

@@ -1,0 +1,71 @@
+MongoDB is a popular NoSQL document-oriented database. Instead of tables and rows, it stores data as flexible JSON-like documents (BSON), making it a natural fit for JavaScript/Node.js applications and rapid prototyping.
+
+- MongoDB
+  - Introduction 🔴
+    - What is MongoDB (document store, NoSQL)
+    - MongoDB vs relational databases
+    - Document = JSON-like object (stored as BSON)
+    - Collection ≈ Table, Document ≈ Row
+  - Installation 🔴
+    - MongoDB Community Edition
+    - macOS: `brew tap mongodb/brew && brew install mongodb-community`
+    - Docker: `docker run -d -p 27017:27017 mongo`
+    - MongoDB Atlas (cloud managed) 🔴
+  - Connecting
+    - `mongosh` (new shell, replaces `mongo`)
+    - Connection string `mongodb://host:port/dbname`
+  - BSON and JSON comparison
+  - Schema-less by design (but validate with JSON Schema / Mongoose)
+  - Sharding and Replication 🔴
+    - Replica Set (high availability)
+    - Sharding (horizontal scaling)
+    - Primary / Secondary nodes
+  - Object ID (`_id`) 🔴
+    - Structure: timestamp + machine + pid + counter
+    - Sortable by creation time
+  - CRUD operations 🔴
+    - Insert 🔴
+      - `insertOne`
+      - `insertMany`
+    - Find 🔴
+      - `findOne`
+      - `find()` (returns a cursor)
+      - Find All
+    - Update 🔴
+      - `updateOne`
+      - `updateMany`
+      - Operators: `$set`, `$unset`, `$inc`, `$push`, `$pull`, `$rename`
+    - Remove 🔴
+      - `deleteOne`
+      - `deleteMany`
+  - Query operators 🔴
+    - Comparison: `$eq`, `$gt`, `$gte`, `$lt`, `$lte`, `$ne`, `$in`, `$nin`
+    - Logical: `$and`, `$or`, `$not`, `$nor`
+    - Element: `$exists`, `$type`
+    - Evaluation: `$regex`, `$expr`
+    - Array: `$all`, `$elemMatch`, `$size`
+  - Projection (select specific fields)
+  - Sorting (`sort`), Limit, Skip
+  - Aggregation pipeline 🔴
+    - `$match`, `$group`, `$project`, `$sort`, `$limit`
+    - `$lookup` (join equivalent)
+    - `$unwind`, `$count`, `$bucket`
+  - Indexes 🔴
+    - `createIndex`
+    - Single field, compound, text, geospatial
+    - `explain()` for query plans
+  - Transactions (multi-document, since v4.0) 🔴
+  - Mongoose (ODM for Node.js) 🔴
+    - Schemas and Models
+    - Validation
+    - Middleware (hooks)
+    - Populate (virtual joins)
+  - GUI tools
+    - MongoDB Compass 🔴
+    - Atlas dashboard
+  - Backup and restore
+    - `mongodump` / `mongorestore`
+  - When to use MongoDB vs SQL 🔴
+
+---
+🔴 Very Important

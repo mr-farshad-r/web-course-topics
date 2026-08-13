@@ -1,343 +1,172 @@
 # Web and Application Course Topics
 
+A complete, modern curriculum for learning web and software development -- from absolute beginner to professional. Each section is a folder with its own detailed `README.md` topic list.
+
+> 🔴 marks **Very Important** topics you must master.
+
 Email me your comments: farshadroozbahani20@gmail.com
 
-[Introduction of  Web, Internet, Programming languages](Introduction/README.md)
+---
 
-[Front-End](Front-End/README.md)
-[Package Managers](PackageManagers/README.md)
+## Table of Contents
 
- - Build tools and Task runner
-    - Introduction 
-    - Webpack
-    - Parcel
- - SPA vs MPA
- - Transpiler
- - Linter
- - Progressive Web Applications (PWA)
+1. [Introduction](#1-introduction)
+2. [General Knowledge](#2-general-knowledge)
+3. [Front-End](#3-front-end)
+4. [Back-End](#4-back-end)
+5. [Package Managers](#5-package-managers)
+6. [Databases](#6-databases)
+7. [DevOps & Deployment](#7-devops--deployment)
+8. [Mobile Application](#8-mobile-application)
+9. [Desktop Application](#9-desktop-application)
+10. [CLI Application](#10-cli-application)
+11. [Web Security](#11-web-security)
+12. [SEO](#12-seo)
+13. [UI / UX](#13-ui--ux)
 
-## React 
+---
 
-- Introduction 
-- Hello World!
-- Bad Pattern Development 
-- Boilerplate 
-- Create and Rendering elements
-- JSX
-- Java Script Expression 
-- Fragment 
-- Components
-  - Class 
-  - Functional
+## 1. Introduction
 
-- Props
-  - Default props
-  - Prop types
+[📖 Introduction of Web, Internet, Programming languages](Introduction/README.md)
 
-- State
-- Lifecycles
-- Handle events
-- Conditional rendering 
-- List and Keys
-- Forms
-- Refs 
-  - Create ref
-  - Forwarding ref
-  - useRef
+Intro, roadmap, how the internet works, client/server architecture, HTTP, DNS, deployment basics, tools.
 
-- Default props
-- Code Splitting 
-- Controlled and Uncontrolled 
-- Higher Order Component (HOC)
-- Error Boundaries
-- Render props
-- Portals
-- Routing 
-  - React router dom 
-    - Browser router 
-    - Hash router 
-    - Router
-    - Route
-    - Link
-    - Navigate
-    - Outlet
-    - Hooks method
+---
 
-- XHTTP Requests
-  - Fetch 
-  - Axios 
+## 2. General Knowledge
 
-- Styling and Visual libraries 
-  - Reactstrap
-  - Mui 
-  - Fluent 
-  - Antd
-- Hooks
-  - useState
-  - useEffect 
-  - Custom Hooks
-  - Rules of hooks
-- State managers
-  - Redux 
-    - Introduction 
-    - Reducer
-    - Actions
-    - Connect
-    - Redux hooks 
-    - Redux toolkit 
-  - Context API
-    - Provider 
-    - Consumer
-- Form Handling 
-  - Formik 
-  - React Form 
+[📖 General](General/README.md)
 
-- Validation 
-  - Yup 
-  - Joi
+Foundations every developer needs -- regardless of specialization.
 
-- React application structure <small> *(npx create-react-app --template structure)* </small>
-- Build and deploy React application
-- TypeScript
-  - Installation
-  - Configs 
-  - Type
-    - Primitive 
-    - Object literal 
-    - Tuple 
-    - Union 
-    - Intersection
-    - Indexing
-    - From value 
-    - From functions return 
-    - From Module
-    - Mapped 
-    - Conditional 
-    - Template union types
+- [Terminal](General/Terminal/README.md)
+- [Operating Systems](General/OS/README.md) -- [Linux](General/OS/Linux/README.md) / [Ubuntu](General/OS/Linux/Ubuntu/README.md) / [Raspberry Pi OS](General/OS/Linux/Rasbian/README.md) / [macOS](General/OS/MacOS/README.md) / [Windows](General/OS/Windows/README.md)
+- [Version Control System (VCS)](General/VCS/README.md) -- [Git](General/VCS/Git/README.md)
+- [Semantic Versioning](General/SemanticVersioning/README.md)
+- [SSH](General/SSH/README.md)
+- [Naming Conventions](General/NamingConventions/README.md)
+- [Design Patterns](General/DesignPatterns/README.md)
+- [Data Structure and Algorithms](General/DataStructure-Algorithms/README.md)
 
-  - Interface 
-    - Built-in type
-    - Common Built-in type
-    - Literal type
-    - Avoid
-    - Extends
-    - Optional 
-    - Readonly
-    - Generics
-    - Getter and Setter
+---
 
-  - Control Flow
-    - Typeof 
-    - Instanceof 
-    - In 
-    - Is
+## 3. Front-End
 
-  - Class
-    - Private 
-    - Implements
-    - Abstract
-    - Decorators and Attributes
+[📖 Front-End](Front-End/README.md)
 
+Everything the user sees and interacts with in the browser.
 
-## Server Side Rendering (SSR) (_Under Construction_)
+- [HTML](Front-End/HTML/README.md)
+- [CSS](Front-End/CSS/README.md) -- [Preprocessors (Sass)](Front-End/CSS/Preprocessor/README.md) / [Bootstrap](Front-End/CSS/Frameworks-Libraries/Bootstrap/README.md) / [Tailwind](Front-End/CSS/Frameworks-Libraries/Tailwind/README.md) / [Bulma](Front-End/CSS/Frameworks-Libraries/Bulma/README.md) / [Materialize](Front-End/CSS/Frameworks-Libraries/Materialize/README.md) / [Font Awesome](Front-End/CSS/Frameworks-Libraries/FontAwesome/README.md)
+- [JavaScript](Front-End/JavaScript/README.md)
+  - [ES6+ (Modern JavaScript)](Front-End/JavaScript/ES6/README.md)
+  - [jQuery](Front-End/JavaScript/Frameworks-Libraries/jQuery/README.md)
+  - [React](Front-End/JavaScript/Frameworks-Libraries/React/README.md) 🔴
+    - [Routing (React Router DOM)](Front-End/JavaScript/Frameworks-Libraries/React/Routing/README.md)
+    - [XHTTP Requests (Fetch, Axios, React Query)](Front-End/JavaScript/Frameworks-Libraries/React/XHTTP/README.md)
+    - [Styling (MUI, Antd, Tailwind, ...)](Front-End/JavaScript/Frameworks-Libraries/React/Styling/README.md)
+    - [State Managers (Redux, Context, Zustand)](Front-End/JavaScript/Frameworks-Libraries/React/StateManagers/README.md)
+    - [Validation (Yup, Zod, Joi)](Front-End/JavaScript/Frameworks-Libraries/React/Validations/README.md)
+  - [Build Tools & Task Runners](Front-End/JavaScript/BuildTools-TaskRunner/README.md) -- [Webpack](Front-End/JavaScript/BuildTools-TaskRunner/Webpack/README.md) / [Vite](Front-End/JavaScript/BuildTools-TaskRunner/Vite/README.md) / [Parcel](Front-End/JavaScript/BuildTools-TaskRunner/Parcel/README.md) / [NPM Scripts](Front-End/JavaScript/BuildTools-TaskRunner/NpmScrips/README.md)
+  - [Transpiler (Babel, SWC)](Front-End/JavaScript/Transpiler/README.md)
+  - [Linter (ESLint, Prettier)](Front-End/JavaScript/Linter/README.md)
+  - [Template Engine (Handlebars)](Front-End/JavaScript/TemplateEngine/README.md)
+  - [Testing (Jest, Cypress)](Front-End/JavaScript/Test/README.md)
+  - [PWA (Progressive Web Apps)](Front-End/JavaScript/PWA/README.md)
+- [TypeScript](Front-End/TypeScript/README.md)
+- [SSR / SSG](Front-End/SSR-SSG/README.md) -- [Next.js](Front-End/SSR-SSG/NEXTjs/README.md)
 
-- Introduction Next JS
-- Pages and Routing 
-- Data fetching 
-- Assets
-- Pre-rendering 
-- Deploy
+---
 
-## Mobile Application with React Native  (__Under Construction__)
+## 4. Back-End
 
-- Introduction 
-- Setup environments
-- Components
-- Styling
-- Build 
+[📖 Back-End](Back-End/README.md)
 
-## Desktop Application with Electron (_Under Construction_)
+Everything that happens on the server -- APIs, databases, authentication, and business logic.
 
-- Introduction 
+- [Languages](Back-End/Language/README.md)
+  - [Node.js ❤️](Back-End/Language/Nodejs/README.md) 🔴 -- [Express.js](Back-End/Language/Nodejs/Expressjs/README.md) / [PM2](Back-End/Language/Nodejs/PM2/README.md)
+  - [PHP](Back-End/Language/PHP/README.md) -- Laravel, CodeIgniter
+  - [Python](Back-End/Language/Python/README.md) -- Flask, FastAPI, Django
+- [Web Servers](Back-End/WebServers/README.md) -- [Nginx](Back-End/WebServers/Nginx/README.md) / [Apache](Back-End/WebServers/Apache/README.md)
+- [Databases](Back-End/Database/README.md)
 
-## CLI Application (_Under Construction_) 
+---
 
-- Introduction
+## 5. Package Managers
 
-## Backend 
+[📖 Package Managers](PackageManagers/README.md)
 
-- Basic Front-End Knowledge
-  - HTML
-  - CSS
-  - JavaScript
-- OS and General Knowledge
-  - Terminal usage 
-  - Process management 
-  - Threads and Concurrency
-  - Memory management 
-- I/O Management 
-- Request and Response
-- SSH
-- Basic networking concept
-- Choose a backend language 
-- Learn databases 
-  - SQL based
-  - NoSQL based
-  - Key / Value store
-- Web Security Knowledge
-- Caching 
-- API 
-- Architectural patterns
-- Message Brokers and Realtime Protocols
-- Containerization and Virtualization 
-- Web Servers
+- [NPM](PackageManagers/NPM/README.md)
+- [Yarn](PackageManagers/Yarn/README.md)
+- PNPM, APT, PIP, Homebrew, Composer, Chocolatey
 
-## Node JS :heart:
+---
 
-- Node Environments
-- V8 Engine
-- Synchronous vs Asynchronous 
-- Event-Driven
-- Non Blocking I/O
-- Event Queue
-- Installation 
-- Node and Package managers
-- Module System
-- File System (FS)
-- Operating System (OS)
-- Hyper Text Transfer Protocol (HTTP)
-- NodeJS Frameworks and libraries 
-  - Express JS 
-    - Installation 
-      - Express Generator
-    - Hello World!
-    - Static files
-    - Middleware 
-    - Template Engine 
-      - PUG
-    - Routing system
-    - JSON Web Token (JWT)
-    - Connect to database 
+## 6. Databases
 
-## Database (_Under Construction_)
+[📖 Databases](Back-End/Database/README.md)
 
-- Introduction
-- Database types
-  - Relational DBMS (Database Management System)
-  - Document Stores
-  - Key/Value Stores
-  - Graph DBMS
-  - Search Engines
-  - ...
+- [MySQL](Back-End/Database/MySQL/README.md) -- Relational / SQL 🔴
+- [MongoDB](Back-End/Database/Mongodb/README.md) -- Document / NoSQL 🔴
+- [Redis](Back-End/Database/Redis/README.md) -- Key-Value / Cache 🔴
 
-### MySQL (_Under Construction_)
+---
 
-- Introduction
-- Installation 
-- Table 
-- Column types
-- SELECT 
-- UPDATE
-- DELETE
-- INSERT
-- Count
-- Distinct
-- Condition
-- Order By
-- Like
+## 7. DevOps & Deployment
 
-### MongoDB (_Under Construction_)
+- [DevOps](DevOps/README.md) -- [Docker](DevOps/Docker/README.md)
+- [Deployment](Deployment/README.md) -- PM2, Nginx, Docker, Monitoring
+- [CLI Application](CLI/README.md)
 
-- Introduction
-- Sharding and Replication 
-- Object ID
-- Find 
-- Find All
-- Insert 
-- Update 
-- Remove
+---
 
-### Redis (_Under Construction_)
+## 8. Mobile Application
 
-- Introduction
-- Using basic queries
+[📖 Mobile Application](MobileApplication/README.md)
 
-### Deploy (_Under Construction_)
+- [Native](MobileApplication/Native/README.md) -- [iOS (Swift)](MobileApplication/Native/IOS/README.md) / [Android (Kotlin)](MobileApplication/Native/Android/README.md)
+- [Cross-Platform](MobileApplication/CrossPlatform/README.md) -- [React Native](MobileApplication/CrossPlatform/ReactNative/README.md) 🔴
+- [Hybrid](MobileApplication/Hybrid/README.md) -- [Ionic](MobileApplication/Hybrid/Ionic/README.md)
 
-- Introduction
-- PM2
-- Nginx Reverse Proxy 
-- Docker
-- Monitor application 
+---
 
-### Docker (_Under Construction_)
+## 9. Desktop Application
 
-- Introduction
+[📖 Desktop Application](DesktopApplication/README.md)
 
-## PHP (_Under Construction_)
+- [Cross-Platform](DesktopApplication/CrossPlatform/README.md) -- [Electron](DesktopApplication/CrossPlatform/Electron/README.md)
 
-- Introduction
-  - Frameworks and Libraries 
-    - CodeIgniter
-    - Laravel
+---
 
-## Python (_Under Construction_)
+## 10. CLI Application
 
-- Introduction
-  - Frameworks and Libraries
-    - Flask
-    - FastAPI
+[📖 CLI Application](CLI/README.md)
 
-## Version Control System (VCS) - GIT
-- Introduction
-- Repository
-  - Local
-  - Remote
-- init ```git init```
-- status ```git status```
-- add ```git add FILE_NAMEs```
-- commit ```git commit -m "MESSAGE"```
-- log ```git log```
-- diff 
-  - diff with HEAD ```git diff HEAD```
-  - diff with stage ```git diff --staged```
-- reset ```git reset FILE_NAMEs```
-- checkout
-  - remove file from stage ```git checkout -- FILE_NAME```
-  - checkout from tag ```git checkout TAG_NAME```
-- branch 
-  - list ```git branch```
-  - create ```git branch BRANCH_NAME```
-  - delete ```git branch -d BRANCH_NAME```
-- merge ```git merge BRANCH_NAME```
-- rm ```git rm FILE_NAME```
-- clone ```git clone GIT_REPOSITORY_ADDRESS```
-- push ```git push origin BRANCH_NAME```
-- pull ```git pull origin BRANCH_NAME```
-- remote 
-  - list ```git remote``` ```git remote -v``` 
-  - add ```git remote add origin GIT_REPOSITORY_ADDRESS```
-- show ```git show [COMMIT_HASH or TAG_NAME]```
-- tag 
-  - list ```git tag```
-  - create ```git tag -a VERSION -m "MESSAGE"```
-  - create from commit name ```git tag -a VERSION COMMIT_HASH -m "MESSAGE"```
-  - search ```git tag -g "SEARCH_PATTERN"```
-  - push tags ```git push origin TAG_NAME``` ```git push origin --tags```
-- blame ```git blame FILE_NAME -L LINE_NUMBER```
-- bisect
-  - ```git bisect start```
-  - ```git bisect bad```
-  - ```git bisect good COMMIT_HASH```
+---
 
-## Other (_Under Construction_)
+## 11. Web Security
 
-- Basic Terminal Usage
-  - Navigation 
-  - Manipulate files and directory
-  - Run CLI applications
-- Data Structure and Algorithms
-- Semantic Versioning 
-- Design Patterns
-- Web Security 
-- CORS
+[📖 Web Security](WebSecurity/README.md) -- [OWASP Top 10](WebSecurity/OWASP/README.md)
+
+---
+
+## 12. SEO
+
+[📖 SEO](SEO/README.md)
+
+---
+
+## 13. UI / UX
+
+[📖 UI / UX](UI-UX/README.md)
+
+---
+
+> ### How to use this curriculum
+>
+> 1. Start with **Introduction** and **General Knowledge** (Terminal, Git).
+> 2. Pick a track: **Front-End** or **Back-End** (or both for full-stack).
+> 3. Follow each section's README top-to-bottom; red-marked 🔴 topics are must-know.
+> 4. Build projects alongside each section -- theory without practice doesn't stick.

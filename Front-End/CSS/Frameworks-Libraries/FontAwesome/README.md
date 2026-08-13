@@ -1,0 +1,46 @@
+Font Awesome is the web's most popular icon library. It provides thousands of scalable vector icons that you can style with CSS -- change size, color, drop shadow -- just like text.
+
+- Font Awesome
+  - Introduction 🔴
+    - What Font Awesome is (scalable vector icon set)
+    - Versions: 5 (classic + brands), 6 (new styles) 🔴
+  - Icon styles 🔴
+    - Solid
+    - Regular (outline)
+    - Light (Pro)
+    - Duotone (Pro)
+    - Brands (logos: GitHub, Twitter, etc.)
+  - Installation 🔴
+    - CDN (quickest): `<script src="...fontawesome...">`
+    - npm: `npm install @fortawesome/fontawesome-free`
+    - React: `npm install @fortawesome/react-fontawesome`
+  - Usage 🔴
+    - Basic: `<i class="fas fa-user"></i>`
+    - Sizing: `fa-lg`, `fa-2x`, `fa-3x`
+    - Fixed width: `fa-fw`
+    - Animations: `fa-spin`, `fa-pulse`
+    - Rotating / flipping
+    - Stacking icons
+  - Styling 🔴
+    - Color via CSS `color`
+    - Size via CSS `font-size`
+    - Shadow, transform
+  - React integration 🔴
+    - `<FontAwesomeIcon icon={faUser} />`
+    - Importing specific icons (tree-shaking)
+  - Performance considerations 🔴
+    - Full CSS loads all icons (large)
+    - SVG/JS or individual imports are lighter
+  - Alternatives
+    - Material Icons
+    - Heroicons
+    - Lucide / Feather Icons
+    - Tabler Icons
+    - Simple Icons (brand SVGs)
+  - When to use Font Awesome
+    - Quick prototypes
+    - Need brand logos
+    - Familiarity and ecosystem
+
+---
+🔴 Very Important

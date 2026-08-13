@@ -17,7 +17,7 @@ CSS or Cascading Style Sheets is the markup language used to style the Front-End
     - RGB / RGBA
     - HEX / HEX with transparency
     - HSL / HSLA
-    - ```currentcolor``` keyword 
+    - `currentcolor` keyword
   - **Selectors** 🔴
       - Tag
       - Class
@@ -106,7 +106,7 @@ CSS or Cascading Style Sheets is the markup language used to style the Front-End
       - Content
   - Media query
   - CSS Reset
-  - ```!important```
+  - `!important`
   - Variables
       - :root
       - var()

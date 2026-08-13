@@ -1,0 +1,45 @@
+Bootstrap is the most popular CSS framework in the world, originally created at Twitter. It provides pre-built components, a responsive grid system, and utility classes that let you build clean, responsive UIs quickly.
+
+- Bootstrap
+  - Introduction 🔴
+    - What Bootstrap is (CSS + JS framework)
+    - History (Twitter, 2011)
+    - Versions: 4 (jQuery), 5 (no jQuery) 🔴
+  - Installation 🔴
+    - CDN (quickest)
+    - npm: `npm install bootstrap`
+    - Download compiled CSS/JS
+  - The 12-column grid system 🔴
+    - Container, Row, Column
+    - `col`, `col-md-6`, `col-lg-4`
+    - Responsive breakpoints (`sm`, `md`, `lg`, `xl`, `xxl`)
+  - Components
+    - Navbar, cards, modals, alerts, dropdowns
+    - Carousel, accordion, tabs
+    - Forms and validation 🔴
+    - Buttons, badges, progress
+  - Utilities 🔴
+    - Spacing: `m-3`, `p-2`, `mt-4`, `mx-auto`
+    - Flexbox utilities: `d-flex`, `justify-content-center`
+    - Text: `text-center`, `fw-bold`, `text-muted`
+    - Display: `d-none`, `d-block`, `d-md-flex`
+  - Customizing Bootstrap 🔴
+    - Sass variables
+    - Override with custom CSS
+  - JavaScript components (need Bootstrap JS)
+    - Modal, dropdown, tooltip, popover
+    - Via `data-bs-*` attributes or JS API
+  - Icons
+    - Bootstrap Icons (separate package)
+  - React integration
+    - [Reactstrap](./../../../JavaScript/Frameworks-Libraries/React/Styling/README.md) (Bootstrap 5 for React)
+    - react-bootstrap
+  - Bootstrap vs Tailwind 🔴
+    - Bootstrap: opinionated components, fast prototyping
+    - Tailwind: utility-first, full design control
+  - When to use Bootstrap
+    - Internal tools, admin panels, quick prototypes
+    - Teams that want consistency without custom design
+
+---
+🔴 Very Important
